@@ -1,0 +1,568 @@
+{
+    "heroHomeModule": {
+        "title": "Impulsamos tu negocio con soluciones digitales a medida.",
+        "subtitle": "Diseñamos, desarrollamos y optimizamos plataformas que hacen crecer tu marca.",
+        "cta": "Empecemos tu proyecto"
+    },
+    "servicesModule": {
+        "title": "Servicios diseñados para escalar tu presencia digital"
+    },
+    "services": [
+        {
+            "id": "web-design",
+            "miniature": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/65a9ba1b7827a9b9e0913bc0_diseno-web-p-800.webp",
+            "background": "/red.mp4",
+            "title": "Diseño Web",
+            "description": "Diseñamos experiencias digitales a medida que conectan con tu audiencia y convierten visitantes en clientes.",
+            "hero": {
+                "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/65be14ed118149e4aa268cda_service-web-p-1600.webp",
+                "slogan": "Diseño que conecta, experiencias que convierten",
+                "action": "¿HABLAMOS?",
+                "descriptionBold": "Tu web no es solo una vitrina, es tu primer contacto con el cliente",
+                "description": "Cuando un usuario entra en tu sitio, en segundos decide si se queda o se va. Por eso, cada detalle importa. Una web bien diseñada no solo informa: cautiva, inspira y genera confianza.",
+                "description2": "Ya tengas una idea o una web que necesita una nueva vida, estamos aquí para ayudarte a construir una presencia digital que deje huella."
+            },
+            "intro": {
+                "title": "Diseñamos sitios que no solo se ven bien, sino que",
+                "word": "funcionan",
+                "description": "Una web efectiva es aquella que habla el idioma de tu audiencia, refleja la esencia de tu marca y tiene claro qué acción debe tomar quien la visita.",
+                "descriptionBold": "Cada decisión de diseño tiene un propósito: atraer, guiar y convertir."
+            },
+            "items": {
+                "title": "Creamos sitios con intención: funcionales, estéticos y alineados con tus objetivos de negocio.",
+                "list": [
+                    {
+                        "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/65bfcfc2148e4c2b54d94a14_web-experience.svg",
+                        "title": "Diseño centrado en el usuario",
+                        "description": "Pensamos en la experiencia completa del visitante para que navegar sea fácil, agradable y fluido desde cualquier dispositivo."
+                    },
+                    {
+                        "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/65bfcfc279f39931e4ab9cc6_web-visual.svg",
+                        "title": "Identidad visual coherente",
+                        "description": "Traducimos tu esencia de marca a un diseño único, visualmente impactante y reconocible al instante."
+                    },
+                    {
+                        "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/65bfcfc2ffd9c4ebc5dbac0c_web-copy.svg",
+                        "title": "Narrativa clara y atractiva",
+                        "description": "Contamos tu historia de forma persuasiva, destacando tu propuesta de valor con mensajes que resuenen con tu audiencia."
+                    },
+                    {
+                        "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/65bfcfc2053b4764ec9156fc_web-conversion.svg",
+                        "title": "Diseño orientado a resultados",
+                        "description": "No basta con verse bien: buscamos que tu web convierta. Diseñamos con un enfoque estratégico para generar leads, ventas o registros."
+                    },
+                    {
+                        "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/65bfcfc2c614d44ea580fc5c_web-dev.svg",
+                        "title": "Desarrollo flexible y escalable",
+                        "description": "Implementamos tu web en plataformas como Webflow o Wordpress, facilitando su gestión y crecimiento a medida que evoluciona tu negocio."
+                    },
+                    {
+                        "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/65bfcfc2db2f22147c4314d8_web-speed.svg",
+                        "title": "Alto rendimiento técnico",
+                        "description": "Optimizamos cada página para que cargue rápido, se vea perfecta en todos los dispositivos y esté preparada para posicionarse en buscadores."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "web-development",
+            "miniature": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/65a9ba1b7f4422c1aabd4aa1_diseno-presentaciones-p-800.webp",
+            "background": "/blue.mp4",
+            "title": "Desarrollo Web",
+            "description": "Creamos soluciones digitales a medida que impulsan tu negocio: desde plataformas internas hasta aplicaciones web complejas, diseñadas para escalar contigo.",
+            "hero": {
+                "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/65b19fef64aa8ccf80695b08_slide%201-p-1080.webp",
+                "slogan": "Tecnología pensada para tu crecimiento",
+                "action": "¿HABLAMOS?",
+                "description": "No se trata solo de programar: se trata de construir herramientas digitales que resuelvan retos reales. Desde CRMs personalizados hasta paneles de gestión o plataformas colaborativas, creamos soluciones estables, seguras y pensadas para durar.",
+                "description2": "Analizamos tu flujo de trabajo, entendemos tus procesos y diseñamos sistemas que automatizan tareas, ahorran tiempo y mejoran la eficiencia operativa.",
+                "descriptionBold": "Desarrollamos tecnología con propósito"
+            },
+            "intro": {
+                "word": "innovar",
+                "title": "Plataformas web que ayudan a",
+                "description": "Sabemos que cada negocio tiene necesidades únicas. Por eso desarrollamos software que se adapta a ti, no al revés.",
+                "descriptionBold": "Nuestra misión: convertir ideas complejas en soluciones digitales intuitivas y escalables."
+            },
+            "items": {
+                "title": "Desarrollamos con visión técnica y enfoque estratégico para que tu plataforma sea robusta, ágil y preparada para el futuro.",
+                "list": [
+                    {
+                        "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/65bfcfc2db2f22147c4314d8_web-speed.svg",
+                        "title": "Arquitectura escalable",
+                        "description": "Pensamos a largo plazo. Creamos infraestructuras que crecen contigo y permiten integrar nuevas funcionalidades sin rehacer todo desde cero."
+                    },
+                    {
+                        "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/65bfcfc2053b4764ec9156fc_web-conversion.svg",
+                        "title": "Funcionalidades personalizadas",
+                        "description": "Nada de soluciones genéricas. Desarrollamos módulos y herramientas a medida según lo que tu equipo necesita."
+                    },
+                    {
+                        "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/65bfcfc2ffd9c4ebc5dbac0c_web-copy.svg",
+                        "title": "Integraciones fluidas",
+                        "description": "Conectamos tu plataforma con servicios externos (APIs, ERPs, CRMs, pasarelas de pago, etc.) para centralizar tus operaciones."
+                    },
+                    {
+                        "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/65bfcfc279f39931e4ab9cc6_web-visual.svg",
+                        "title": "Interfaces pensadas para el usuario",
+                        "description": "Creamos paneles y entornos de administración intuitivos para que cualquier miembro del equipo pueda operar sin fricción."
+                    },
+                    {
+                        "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/65bfcfc2148e4c2b54d94a14_web-experience.svg",
+                        "title": "Seguridad y rendimiento",
+                        "description": "Implementamos buenas prácticas de desarrollo, autenticación y gestión de datos para proteger tu sistema y asegurar su rendimiento."
+                    },
+                    {
+                        "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/65bfcfc2c614d44ea580fc5c_web-dev.svg",
+                        "title": "Tecnologías modernas",
+                        "description": "Utilizamos stacks actualizados como Node.js, NestJS, React, Next.js o PostgreSQL, según los requerimientos del proyecto."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "web-maintenance",
+            "miniature": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/65a9ba1cc621ebaaf36ba8e1_diseno-branding-p-800.webp",
+            "background": "/orange.mp4",
+            "title": "Mantenimiento Web",
+            "description": "Velamos por la salud, seguridad y evolución constante de tu plataforma digital. Detectamos y resolvemos antes de que se convierta en un problema.",
+            "hero": {
+                "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/65a3c88853a920f4f8a68aac_service-branding-p-1600.webp",
+                "slogan": "Tu web siempre actual, rápida y protegida",
+                "action": "¿HABLAMOS?",
+                "description": "Tu web no debería ser una preocupación más. Nos encargamos de mantenerla actualizada, rápida y protegida para que nunca se detenga.",
+                "description2": "Supervisamos su estado constantemente, aplicamos mejoras continuas, actualizamos contenidos, plugins y tecnologías, y respondemos ante cualquier imprevisto. Así tú puedes enfocarte en tu negocio, no en su infraestructura.",
+                "descriptionBold": "Tu web siempre lista para dar la mejor impresión"
+            },
+            "intro": {
+                "word": "evolucionar",
+                "title": "Un servicio diseñado para que tu web nunca deje de",
+                "description": "Internet cambia cada día. Lo que hoy funciona, mañana puede quedar obsoleto. Por eso, el mantenimiento no es un gasto, es una inversión en continuidad, rendimiento y reputación digital.",
+                "descriptionBold": "Tu sitio merece atención constante, y nosotros te la garantizamos."
+            },
+            "items": {
+                "title": "Un enfoque proactivo para que tu web siga rindiendo al 100%.",
+                "list": [
+                    {
+                        "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/65bfcfc2db2f22147c4314d8_web-speed.svg",
+                        "title": "Monitoreo y soporte",
+                        "description": "Revisamos el estado de tu sitio y actuamos ante errores o caídas antes de que afecten a tus usuarios."
+                    },
+                    {
+                        "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/65bfcfc2053b4764ec9156fc_web-conversion.svg",
+                        "title": "Actualizaciones técnicas",
+                        "description": "Plugins, CMS, dependencias y frameworks: todo se mantiene al día para evitar vulnerabilidades y asegurar compatibilidad."
+                    },
+                    {
+                        "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/65bfcfc2ffd9c4ebc5dbac0c_web-copy.svg",
+                        "title": "Backups automáticos",
+                        "description": "Copias de seguridad programadas para que, pase lo que pase, siempre puedas recuperar tu web."
+                    },
+                    {
+                        "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/65bfcfc279f39931e4ab9cc6_web-visual.svg",
+                        "title": "Rendimiento continuo",
+                        "description": "Optimizamos tiempos de carga, bases de datos y rendimiento general para que tu web siga siendo veloz y eficiente."
+                    },
+                    {
+                        "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/65bfcfc2148e4c2b54d94a14_web-experience.svg",
+                        "title": "Gestión de hosting y dominios",
+                        "description": "Nos encargamos de toda la parte técnica: renovaciones, configuraciones y migraciones si hace falta."
+                    },
+                    {
+                        "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/65bfcfc2c614d44ea580fc5c_web-dev.svg",
+                        "title": "Seguridad reforzada",
+                        "description": "Implementamos medidas de protección contra ataques, spam, malware y accesos no autorizados."
+                    }
+                ]
+            }
+        }
+    ],
+    "projectsModule": {
+        "title": "Soluciones reales para marcas reales",
+        "cta": "Explora nuestro portafolio"
+    },
+    "projects": [
+        {
+            "id": "linguistic-factory",
+            "image": "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65bad2cde814de377adca891_project-linguisticfactory-p-500.webp",
+            "background": "/red.mp4",
+            "title": "Fábrica Lingüística",
+            "slogan": "Entrenando humanos digitales para entender a los humanos reales",
+            "services": ["Diseño Web", "Desarrollo Web"],
+            "description": "<p>Desde Orbitia les ayudamos a contar el valor que tiene Fábrica Lingüística, de una forma sencilla y atractiva.<p></p>Lejos de tecnicismos y poniendo el foco en las posibilidades sin límites que se abren con su solución.</p>",
+            "hero": "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65bad2f51c5d398fd18640b5_project-header-linguisticfactory-p-800.webp",
+            "images": [
+                "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65bad3026c17e98c34d9a9ae_linguisticfactory-detail-2.webp",
+                "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65bad30d7d0604d5e3c0819e_linguisticfactory-detail-1.webp",
+                "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65bad3152e472c266476ecab_linguisticfactory-detail-3.webp",
+                "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65bad31f9f6847c5d0f75b31_linguisticfactory-detail-4.webp",
+                "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65bad3798b5bb32cf06a8ad9_linguisticfactory-onepager.webp"
+            ]
+        },
+        {
+            "id": "averta-capital",
+            "image": "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65b623fd7966128030818c1f_project-avertacapital.webp",
+            "background": "/blue.mp4",
+            "title": "Averta Capital",
+            "slogan": "La energía al precio más justo, sin sustos ni desembolsos.",
+            "services": ["Diseño Web", "Desarrollo Web", "Mantenimiento Web"],
+            "description": "<p>Después de conseguir sus primeros acuerdos, y partners potentes, desde Averta capital vieron que era momento de crecer rápidamente, buscando inversión para ello.<p></p>Pero la presentación que tenían, dicho con sus palabras, \"no estaba a la altura, parecía una presentación de instituto\". Les costaba muchísimo plasmar y explicar su proyecto. Así que nos pusimos manos a la obra para darles un Pitch con el que impactar.</p>",
+            "hero": "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65b6241dc7bf7e4f2ee517cb_project-header-avertacapital-p-800.webp",
+            "images": [
+                "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65b6245823169546f9f19a3f_avertacapital-detail-1.svg",
+                "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65b62464479f8f78023f5da1_avertacapital-detail-2.webp",
+                "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65b6246b63382a3b30f9c1f7_avertacapital-detail-3.webp",
+                "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65b6247139210ac96d8e370c_avertacapital-detail-4.webp",
+                "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65b6247139210ac96d8e370c_avertacapital-detail-4.webp",
+                "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65b6244ccebba152b58bc023_avertacapital-onepager.webp"
+            ]
+        },
+        {
+            "id": "brave-coast-trading",
+            "image": "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65b560c93061e1aff3b59863_project-bravecoasttrading.webp",
+            "background": "/orange.mp4",
+            "title": "Brave Coast Trading",
+            "slogan": "Trading Global de alimentos.",
+            "services": ["Mantenimiento Web"],
+            "description": "<p>Para el rediseño de su nueva web, quisimos poner el foco en el concepto \"alimentos del mundo\". Creando un globo terráqueo siempre en movimiento.<p></p>Un globo que, junto con fotografías de alimentos de calidad, ayudan a contar todos los servicios y propuesta de valor que Brave Coast Trading ofrece a sus clientes. En conjunción con un diseño limpio y minimalista.</p>",
+            "hero": "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65b560c4b14dbcb392673a05_project-header-bravecoasttrading-p-800.webp",
+            "images": [
+                "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/671caf9e07ebfa74c52c1f82_65c0d73e2bf7a04ed9737cb1_bravecoasttrading-detail-1.webp",
+                "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/671caf9e07ebfa74c52c1f7f_65c0d7442bf7a04ed9737f4e_bravecoasttrading-detail-2.webp",
+                "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65c0d74bef4f800fa4fd34fe_bravecoasttrading-detail-3.svg",
+                "https://cdn.orbitia.net/video/bravecoasttrading-detail-5..webm",
+                "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/671caf9e07ebfa74c52c1f85_65c0dad9dde1753ebe4791c7_bravecoasttrading-detail-6.webp",
+                "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/671caf9e07ebfa74c52c1f89_65c0d754a94cb38218b85953_bravecoasttrading-detail-4.webp"
+            ]
+        },
+        {
+            "id": "linguistic-factory2",
+            "image": "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65bad2cde814de377adca891_project-linguisticfactory-p-500.webp",
+            "background": "/red.mp4",
+            "title": "Fábrica Lingüística2",
+            "slogan": "Entrenando humanos digitales para entender a los humanos reales",
+            "services": ["Diseño Web", "Desarrollo Web"],
+            "description": "<p>Desde Orbitia les ayudamos a contar el valor que tiene Fábrica Lingüística, de una forma sencilla y atractiva.<p></p>Lejos de tecnicismos y poniendo el foco en las posibilidades sin límites que se abren con su solución.</p>",
+            "hero": "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65bad2f51c5d398fd18640b5_project-header-linguisticfactory-p-800.webp",
+            "images": [
+                "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65bad3026c17e98c34d9a9ae_linguisticfactory-detail-2.webp",
+                "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65bad30d7d0604d5e3c0819e_linguisticfactory-detail-1.webp",
+                "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65bad3152e472c266476ecab_linguisticfactory-detail-3.webp",
+                "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65bad31f9f6847c5d0f75b31_linguisticfactory-detail-4.webp",
+                "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65bad3798b5bb32cf06a8ad9_linguisticfactory-onepager.webp"
+            ]
+        },
+        {
+            "id": "averta-capital2",
+            "image": "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65b623fd7966128030818c1f_project-avertacapital.webp",
+            "background": "/blue.mp4",
+            "title": "Averta Capital2",
+            "slogan": "La energía al precio más justo, sin sustos ni desembolsos.",
+            "services": ["Diseño Web", "Desarrollo Web", "Mantenimiento Web"],
+            "description": "<p>Después de conseguir sus primeros acuerdos, y partners potentes, desde Averta capital vieron que era momento de crecer rápidamente, buscando inversión para ello.<p></p>Pero la presentación que tenían, dicho con sus palabras, \"no estaba a la altura, parecía una presentación de instituto\". Les costaba muchísimo plasmar y explicar su proyecto. Así que nos pusimos manos a la obra para darles un Pitch con el que impactar.</p>",
+            "hero": "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65b6241dc7bf7e4f2ee517cb_project-header-avertacapital-p-800.webp",
+            "images": [
+                "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65b6245823169546f9f19a3f_avertacapital-detail-1.svg",
+                "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65b62464479f8f78023f5da1_avertacapital-detail-2.webp",
+                "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65b6246b63382a3b30f9c1f7_avertacapital-detail-3.webp",
+                "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65b6247139210ac96d8e370c_avertacapital-detail-4.webp",
+                "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65b6247139210ac96d8e370c_avertacapital-detail-4.webp",
+                "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65b6244ccebba152b58bc023_avertacapital-onepager.webp"
+            ]
+        },
+        {
+            "id": "brave-coast-trading2",
+            "image": "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65b560c93061e1aff3b59863_project-bravecoasttrading.webp",
+            "background": "/orange.mp4",
+            "title": "Brave Coast Trading2",
+            "slogan": "Trading Global de alimentos.",
+            "services": ["Mantenimiento Web"],
+            "description": "<p>Para el rediseño de su nueva web, quisimos poner el foco en el concepto \"alimentos del mundo\". Creando un globo terráqueo siempre en movimiento.<p></p>Un globo que, junto con fotografías de alimentos de calidad, ayudan a contar todos los servicios y propuesta de valor que Brave Coast Trading ofrece a sus clientes. En conjunción con un diseño limpio y minimalista.</p>",
+            "hero": "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65b560c4b14dbcb392673a05_project-header-bravecoasttrading-p-800.webp",
+            "images": [
+                "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/671caf9e07ebfa74c52c1f82_65c0d73e2bf7a04ed9737cb1_bravecoasttrading-detail-1.webp",
+                "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/671caf9e07ebfa74c52c1f7f_65c0d7442bf7a04ed9737f4e_bravecoasttrading-detail-2.webp",
+                "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/65c0d74bef4f800fa4fd34fe_bravecoasttrading-detail-3.svg",
+                "https://cdn.orbitia.net/video/bravecoasttrading-detail-5..webm",
+                "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/671caf9e07ebfa74c52c1f85_65c0dad9dde1753ebe4791c7_bravecoasttrading-detail-6.webp",
+                "https://cdn.prod.website-files.com/65895c7b94967e35ebf5908d/671caf9e07ebfa74c52c1f89_65c0d754a94cb38218b85953_bravecoasttrading-detail-4.webp"
+            ]
+        }
+    ],
+    "projectsPage": {
+        "title": "Proyectos que hablan por sí mismos",
+        "description": "Cada proyecto es una historia de colaboración, innovación y resultados. Aquí te mostramos algunos de nuestros trabajos más destacados."
+    },
+    "projectPage": {
+        "project": "Proyecto",
+        "review": "Reseña",
+        "moreProjects": "Más proyectos"
+    },
+    "contactModule": {
+        "title": "Hablemos de lo que quieres construir",
+        "description": "Cada gran proyecto comienza con una conversación. Cuéntanos tu idea y déjanos ayudarte a hacerla realidad.",
+        "cta": "Contáctanos"
+    },
+    "contactPage": {
+        "title": "Estamos listos para empezar",
+        "description": "Completa el formulario. Nosotros nos encargamos del resto."
+    },
+    "contactForm": {
+        "nameLabel": "¿Cómo te llamas?",
+        "namePlaceholder": "Escribe tu nombre",
+        "nameValidation": "Tu nombre debe tener al menos 2 letras para que podamos saludarte bien 🙂",
+        "projectNameLabel": "¿Cómo se llama tu proyecto?",
+        "projectNamePlaceholder": "Ej. Tienda online de accesorios",
+        "projectNameValidation": "Ponle un nombre. Aunque sea tentativo, necesitamos saber cómo llamarlo.",
+        "phoneLabel": "Número de contacto",
+        "phonePlaceholder": "Tu número con código de país",
+        "phoneValidation": "Revisa tu teléfono. Necesitamos al menos 10 dígitos para poder contactarte.",
+        "emailLabel": "Correo electrónico",
+        "emailPlaceholder": "tucorreo@ejemplo.com",
+        "emailValidation": "Esto no parece un correo válido. Revísalo y vuelve a intentarlo.",
+        "howDidYouHearLabel": "¿Dónde oíste de nosotros?",
+        "howDidYouHearPlaceholder": "Ej. Instagram, Google, recomendación...",
+        "howDidYouHearValidation": "Nos encantaría saber cómo llegaste hasta aquí.",
+        "termsLabel": "Acepto la política de privacidad",
+        "termsPlaceholder": "NMLSS usará tus datos solo para responderte y enviarte info relevante. No hacemos spam. Puedes saber más en nuestra <1>política de privacidad.</1>",
+        "termsValidation": "Necesitamos tu consentimiento para poder ayudarte con tu proyecto.",
+        "submitLabel": "Enviar mensaje",
+        "successMessage": "¡Gracias por escribirnos! Pronto nos pondremos en contacto contigo. 🚀",
+        "errorMessage": "Algo no salió bien al enviar tu mensaje. Intenta de nuevo o escríbenos a hola@nmlss.com"
+    },
+    "mainMenuComponent": {
+        "home": "Inicio",
+        "services": "Servicios",
+        "aboutUs": "Nosotros",
+        "projects": "Proyectos",
+        "contact": "Contacto"
+    },
+    "footer": {
+        "title": "Sin nombre, solo ideas.\nSin límites, solo innovación.",
+        "email": "contacto@nmlss.com",
+        "servicesTitle": "Lo que hacemos",
+        "name": "Nameless (NMLSS)",
+        "termsConditions": "Términos y condiciones",
+        "privacyPolicy": "Política de privacidad",
+        "cookiePolicy": "Política de cookies",
+        "copyright": "©2025 Nameless. Diseñado sin límites."
+    },
+    "languageToggle": {
+        "toggleLanguage": "Cambiar idioma",
+        "english": "Inglés",
+        "spanish": "Español"
+    },
+    "modeToggle": {
+        "toggleTheme": "Cambiar tema",
+        "light": "Claro",
+        "dark": "Oscuro",
+        "system": "Sistema"
+    },
+    "teamOverviewModule": {
+        "title": "Conoce a quienes hacen realidad cada línea de código",
+        "description": "Somos un equipo multidisciplinario comprometido con crear soluciones digitales sólidas, escalables y visualmente atractivas.",
+        "members": [
+            {
+                "image": "https://curriculumvitae-eosin.vercel.app/assets/profile-1a7b01b4.jpg",
+                "name": "Juan Jose Marin Lujan",
+                "position": "Frontend Developer",
+                "description": "Especialista en interfaces intuitivas y accesibles. Transforma ideas en experiencias digitales usando tecnologías como React, Tailwind y TypeScript.",
+                "linkedin": "https://www.linkedin.com/in/juanjosemarinlujan/"
+            },
+            {
+                "image": "https://curriculumvitae-eosin.vercel.app/assets/profile-1a7b01b4.jpg",
+                "name": "Diego Fernando Gonzalez",
+                "position": "Backend Developer",
+                "description": "Crea arquitecturas sólidas y eficientes con Node.js, NestJS y microservicios. Su foco está en el rendimiento, la seguridad y la escalabilidad.",
+                "linkedin": "https://www.linkedin.com/in/juanjosemarinlujan/"
+            },
+            {
+                "image": "https://curriculumvitae-eosin.vercel.app/assets/profile-1a7b01b4.jpg",
+                "name": "Santiago Gonzalez",
+                "position": "Database Developer",
+                "description": "Diseña estructuras de datos optimizadas y escalables. Experto en PostgreSQL, modelado de datos y rendimiento de consultas.",
+                "linkedin": "https://www.linkedin.com/in/juanjosemarinlujan/"
+            },
+            {
+                "image": "https://curriculumvitae-eosin.vercel.app/assets/profile-1a7b01b4.jpg",
+                "name": "Lucas Gonzalez",
+                "position": "Web Designer",
+                "description": "Convierte conceptos en interfaces memorables. Su enfoque visual garantiza coherencia de marca, accesibilidad y diseño centrado en el usuario.",
+                "linkedin": "https://www.linkedin.com/in/juanjosemarinlujan/"
+            },
+            {
+                "image": "https://curriculumvitae-eosin.vercel.app/assets/profile-1a7b01b4.jpg",
+                "name": "Nombre Apellido",
+                "position": "DevOps Engineer",
+                "description": "Automatiza procesos, gestiona infraestructura y asegura despliegues sin fricción. Especialista en CI/CD, contenedores y cloud computing.",
+                "linkedin": "https://www.linkedin.com/in/juanjosemarinlujan/"
+            }
+        ]
+    },
+    "brandStoryModule": {
+        "title": "Nuestra identidad como motor creativo",
+        "brandName": "Nameless (NMLSS)",
+        "brandDescription": "No tenemos nombre, porque no tenemos límites. Somos una startup que diseña, construye y potencia productos digitales con propósito, impulsados por la innovación, la colaboración y el deseo constante de ir más allá.",
+        "foundations": [
+            {
+                "icon": "ProjectFocus",
+                "title": "Una visión que trasciende",
+                "description": "No repetimos fórmulas. Creamos rutas nuevas con cada proyecto, desarrollando soluciones digitales pensadas para crecer, escalar y evolucionar."
+            },
+            {
+                "icon": "Relations",
+                "title": "Colaboración como base",
+                "description": "Nos integramos con nuestros clientes como un solo equipo. Entendemos su visión y la convertimos en experiencias digitales funcionales y memorables."
+            },
+            {
+                "icon": "Innovation",
+                "title": "Mentalidad disruptiva",
+                "description": "Replanteamos lo establecido. Desarrollamos soluciones únicas que rompen esquemas, poniendo la creatividad y la tecnología al servicio del cambio."
+            },
+            {
+                "icon": "Startup",
+                "title": "Agilidad con propósito",
+                "description": "Nuestra mentalidad ágil nos permite adaptarnos, responder rápido y entregar con excelencia, sin sacrificar la calidad ni la visión a largo plazo."
+            },
+            {
+                "icon": "Connection",
+                "title": "Diseñamos impacto",
+                "description": "Más que productos, creamos soluciones que conectan, que aportan valor real y que dejan huella en las personas y los negocios."
+            }
+        ]
+    },
+    "partnersModule": {
+        "title": "Conectando ideas con quienes creen en ellas",
+        "partners": [
+            {
+                "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/67b4be74aa3742b358d7a1aa_logo-agendareceptor.svg",
+                "name": "Socio 1"
+            },
+            {
+                "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/67b4be74d66587ca74a9b30d_logo-altus.svg",
+                "name": "Socio 2"
+            },
+            {
+                "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/67b4be748dcbfa972175b0d6_logo-arvision.svg",
+                "name": "Socio 3"
+            },
+            {
+                "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/67b4be74a638a3ddba26153b_logo-avertacapital.svg",
+                "name": "Socio 4"
+            },
+            {
+                "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/67b4be749ad04879849deaf9_logo-beeasy.svg",
+                "name": "Socio 5"
+            },
+            {
+                "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/67b4be74c7687de910dfb22b_logo-boxful.svg",
+                "name": "Socio 6"
+            },
+            {
+                "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/67b4be7422842ed491557525_logo-bravecoast.svg",
+                "name": "Socio 7"
+            },
+            {
+                "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/67b4be74409fc1f6fc7f61e4_logo-bytetravel.svg",
+                "name": "Socio 8"
+            },
+            {
+                "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/67b4be74fba34f633531aa88_logo-cbdcream.svg",
+                "name": "Socio 9"
+            },
+            {
+                "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/67b4be7475a2608be63731a2_logo-cillion.svg",
+                "name": "Socio 10"
+            },
+            {
+                "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/67b4be7471812e420e2d5c70_logo-corpay.svg",
+                "name": "Socio 11"
+            },
+            {
+                "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/67b4be75f1ad1894389dbe33_logo-cuartaplanta.svg",
+                "name": "Socio 12"
+            },
+            {
+                "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/67b4be7447e28952fad7df48_logo-earthpulse.svg",
+                "name": "Socio 13"
+            },
+            {
+                "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/67b4be741eef5c53e56ae2b2_logo-gkn.svg",
+                "name": "Socio 14"
+            },
+            {
+                "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/67b4be74cb77185202e24ea4_logo-gotrucki.svg",
+                "name": "Socio 15"
+            },
+            {
+                "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/67b4be749f5675d1b7f493dc_logo-impulsa.svg",
+                "name": "Socio 16"
+            }
+        ]
+    },
+    "testimonialsModule": {
+        "title": "Confianza que transforma proyectos"
+    },
+    "testimonials": [
+        {
+            "id": "linguistic-factory",
+            "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/67b4be74be4a8252ecb6af23_logo-cuideo.svg",
+            "author": "Michiel Das",
+            "role": "CEO",
+            "text": "¡Grandes profesionales! Se implican en cada proyecto como si fuera el suyo, realmente es como contar con un propio equipo de diseño en toda regla. Tanto en las presentaciones como el diseño de la web combinan un enfoque estratégico (en la comunicación de los mensajes clave) con un cuidado especial para el UX/UI, y todo siempre con el ojo puesto en maximizar las conversiones."
+        },
+        {
+            "id": "averta-capital",
+            "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/67b4be74843de16bfdde9009_logo-ingevital.svg",
+            "author": "Laura Ibeas",
+            "role": "CEO",
+            "text": "Súper profesionales. Un trabajo estupendo y una comunicación con ellos extraordinaria. Han plasmado todo lo que les pedíamos perfectamente. Son diferenciales y eso aporta un valor añadido a todo lo que hacen. Muchas gracias por todo."
+        },
+        {
+            "id": "brave-coast-trading",
+            "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/67b4be74533aacbfb9133b2f_logo-siali.svg",
+            "author": "Sergio Pesquera",
+            "role": "CEO",
+            "text": "Espectaculares profesionales. No solo tienen un gusto exquisito, si no que, en prácticamente una sesión de una hora, entienden a la perfección a lo que te dedicas, tú público objetivo y cómo quieres transmitir el mensaje; la primera iteración es top, pero es que luego son capaces de canalizar el feedback de sus clientes y plasmarlo de forma rápida y precisa. Seguiremos trabajando con ellos en el futuro."
+        },
+        {
+            "id": "linguistic-factory2",
+            "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/67b4be74060a4a4b54e12d6c_logo-routal.svg",
+            "author": "Xavier Ruiz",
+            "role": "CEO",
+            "text": "Trabajar con Orbitia ha sido un placer. Rápidos, eficientes y una calidad espectacular. Una buena entrada es básico para captar la atención de inversores y clientes. Gracias a su trabajo lo conseguimos. El resto es cosa nuestra."
+        },
+        {
+            "id": "averta-capital2",
+            "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/67b4be7427a3835b32b55a6c_logo-lewolang.svg",
+            "author": "Manel",
+            "role": "CEO",
+            "text": "Estamos muy satisfechos por el trabajazo realizado por el equipo de Orbitia. Han sabido captar perfectamente la esencia de nuestro proyecto. El trabajo ha superado ampliamente lo que estábamos buscando, así que recomiendo a todas aquellas startup que tengan necesidad de crear un pitch deck de calidad se pongan en manos de Orbitia."
+        },
+        {
+            "id": "brave-coast-trading2",
+            "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/67b4be745f5c01bc640c3c7e_logo-linguisticfactory.svg",
+            "author": "David Fernández",
+            "role": "CEO",
+            "text": "Un pequeño gran equipo de gente supercomprometida que te ayudará mas alla del trabajo que les hayas encargado. A mi, por lo menos, me ayudaron asi  a preparar mi Deck y Onepager."
+        },
+        {
+            "id": "brave-coast-trading3",
+            "image": "https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/67b4be7471812e420e2d5c70_logo-corpay.svg",
+            "author": "Roberto del Diego",
+            "role": "Codirector España",
+            "text": "Trabajamos con Eduardo y su equipo para una presentación corporativa. En todo momento captaron la idea que queríamos transmitir, acertando con la forma de presentación, simplificando el contenido de forma apropiada. Aprovecho este espacio para dar la enhorabuena por su trabajo y agradecer la atencion."
+        }
+    ],
+    "itemsModule": {
+        "title": "Los elementos para crear tu branding"
+    },
+    "termsAndConditions": "<h1>Términos y condiciones</h1><h2>Información general</h2><p>La titularidad de este sitio web, nmlss.com, (en adelante, el “Sitio Web”) corresponde a NMLSS (en adelante, también, la “Empresa”). El objetivo principal de este Sitio Web es proporcionar al público en general información sobre los servicios digitales y soluciones tecnológicas que ofrece NMLSS.</p><p>Las presentes condiciones de uso (las “Condiciones de Uso”) regulan el acceso y la utilización del Sitio Web y de todos los subdominios asociados al mismo, así como los contenidos y servicios que se ofrecen a través de él, y constituyen, junto con la Política de Privacidad y la Política de Cookies, los términos y condiciones (los “Términos y Condiciones”) que rigen el uso del Sitio Web.</p><p>En cumplimiento de lo dispuesto en el artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico, se facilita a continuación la información general del titular del Sitio Web:</p><p><strong>Titular:</strong> NMLSS<br><strong>Domicilio social: </strong>[DIRECCIÓN DE LA EMPRESA]<br><strong>NIF/CIF:</strong> [NÚMERO]<br><strong>Correo electrónico de contacto:</strong> hola@nmlss.com</p><p>El acceso y uso del Sitio Web implica el conocimiento y aceptación plena, sin reservas, de los presentes Términos y Condiciones. Se recomienda al Usuario su lectura detenida cada vez que acceda al Sitio Web.</p><p>Solo podrán hacer uso de los Servicios ofrecidos en el Sitio Web las personas mayores de edad. Mediante la aceptación de estos Términos y Condiciones, el Usuario declara ser mayor de edad y tener capacidad legal suficiente para contratar los servicios disponibles en el Sitio Web.</p><p>El Usuario será responsable de la veracidad, exactitud y actualidad de los datos proporcionados a través del formulario de contacto u otros medios habilitados por NMLSS.</p><h2>Uso del sitio web</h2><p>El Usuario se compromete a utilizar el Sitio Web de forma diligente, correcta y lícita. NMLSS no se hace responsable de los usos indebidos que los Usuarios puedan realizar del contenido o los servicios ofrecidos.</p><p>Los Usuarios deberán abstenerse de utilizar el Sitio Web con fines contrarios a la ley, la moral, el orden público o con finalidades lesivas para derechos e intereses de terceros.</p><p>El Usuario será responsable de cualquier daño o perjuicio que cause a NMLSS como consecuencia del uso incorrecto o ilícito del Sitio Web.</p><h2>Propiedad intelectual e industrial</h2><p>Los contenidos del Sitio Web (textos, imágenes, logos, diseños, código fuente, software, etc.) son propiedad exclusiva de NMLSS o de terceros que han autorizado su uso. Todos los derechos están reservados.</p><p>Está prohibida la reproducción, distribución, transformación o comunicación pública sin autorización previa y por escrito de NMLSS, salvo en los casos legalmente permitidos.</p><h2>Exclusión de garantías</h2><h3>a) Funcionamiento del Sitio Web</h3><p>NMLSS no garantiza el acceso ininterrumpido al Sitio Web ni su correcto funcionamiento. El Sitio Web puede contener errores técnicos o virus. Se recomienda al Usuario el uso de software antivirus actualizado antes de acceder o navegar por el Sitio Web.</p><h3>b) Contenidos</h3><p>NMLSS se esfuerza en mantener la información actualizada y precisa, pero no garantiza su fiabilidad en todo momento, especialmente la proporcionada por terceros.</p><h3>c) Enlaces a terceros</h3><p>El Sitio Web puede contener enlaces a sitios web de terceros. NMLSS no tiene control sobre ellos y no se hace responsable de sus contenidos, servicios, ni de las acciones u omisiones de sus titulares.</p><h2>Derecho de admisión y suspensión del servicio</h2><p>NMLSS se reserva el derecho de restringir o retirar el acceso al Sitio Web a cualquier Usuario que incumpla los Términos y Condiciones o la normativa vigente, sin previo aviso.</p><h2>Modificaciones</h2><p>NMLSS podrá modificar en cualquier momento los presentes Términos y Condiciones, avisando previamente a los Usuarios mediante publicación en el Sitio Web. Se recomienda revisar periódicamente este apartado.</p><h2>Ley aplicable y jurisdicción</h2><p>Los Términos y Condiciones se regirán por la legislación española. Para la resolución de cualquier controversia, las partes se someterán a los Juzgados y Tribunales del domicilio social de NMLSS.</p><p>Si alguna de las disposiciones de estos Términos resultara inválida o inaplicable, dicha disposición será eliminada o limitada en la medida mínima necesaria, y las restantes disposiciones seguirán plenamente vigentes.</p>",
+    "privacyPolicy": "<h1>Política de privacidad</h1><h2>1. Aspectos generales</h2>\n  <p>\n    La presente Política de Privacidad (la “Política”) se aplica al sitio web alojado bajo el dominio \n    <a href=\"https://nmlss.io/\" target=\"_blank\">https://nmlss.io/</a> (el “Sitio Web”), titularidad de <strong>NMLSS</strong> \n    (en adelante, “la Empresa”), con domicilio social en [DIRECCIÓN LEGAL], provista de [NÚMERO DE IDENTIFICACIÓN FISCAL] \n    y correo electrónico de contacto: <a href=\"mailto:[EMAIL DE CONTACTO]\">[EMAIL DE CONTACTO]</a>.\n  </p>\n  <p>\n    En cumplimiento de la legislación vigente en materia de protección de datos personales, NMLSS informa a los usuarios del Sitio Web \n    (en adelante, los “Usuarios”) acerca de la política de tratamiento de los datos personales recogidos a través de los formularios, \n    interacciones y otros canales disponibles en el Sitio Web.\n  </p>\n  <p>\n    El acceso y navegación en el Sitio Web no requiere la revelación de datos personales. Sin embargo, para el acceso a ciertos servicios \n    ofrecidos por NMLSS, será necesario que el Usuario proporcione cierta información personal.\n  </p>\n  <p>\n    La utilización del Sitio Web y el envío voluntario de datos por parte del Usuario implican la aceptación sin reservas de esta Política \n    de Privacidad. Se recomienda leerla detenidamente antes de enviar cualquier información personal.\n  </p>\n\n  <h2>2. Tratamiento de los datos personales</h2>\n\n  <h3>2.1. ¿Quién es el responsable del tratamiento?</h3>\n  <p>\n    El responsable del tratamiento de los datos personales recabados a través del Sitio Web es <strong>NMLSS</strong>, cuyos datos de \n    contacto figuran en el apartado anterior.\n  </p>\n\n  <h3>2.2. ¿Qué datos personales se recogen?</h3>\n  <ul>\n    <li>Datos identificativos: nombre, apellidos, correo electrónico, teléfono, dirección IP, etc.</li>\n    <li>Datos de contacto enviados mediante formularios o correos electrónicos.</li>\n    <li>Datos financieros, técnicos o relacionados con los servicios que el Usuario contrate.</li>\n    <li>Información de navegación como tipo de navegador, sistema operativo, fecha y hora de acceso, etc.</li>\n  </ul>\n\n  <h3>2.3. ¿Con qué finalidad se tratan los datos?</h3>\n  <ul>\n    <li>Atender solicitudes de contacto o consultas.</li>\n    <li>Gestionar la prestación de los servicios contratados.</li>\n    <li>Gestionar el registro de cuentas de usuario.</li>\n    <li>Enviar información comercial y promocional sobre servicios propios (si el Usuario lo ha autorizado).</li>\n    <li>Mejorar la experiencia del Usuario en el Sitio Web mediante análisis de uso y comportamiento.</li>\n  </ul>\n\n  <h3>2.4. ¿Cuál es la base legal del tratamiento?</h3>\n  <ul>\n    <li>La ejecución de un contrato, cuando los datos sean necesarios para la prestación de un servicio.</li>\n    <li>El consentimiento del Usuario, otorgado de forma expresa.</li>\n    <li>El cumplimiento de obligaciones legales.</li>\n    <li>El interés legítimo de la Empresa para garantizar la seguridad del Sitio Web y prevenir fraudes.</li>\n  </ul>\n\n  <h3>2.5. ¿Por cuánto tiempo se conservarán los datos?</h3>\n  <p>\n    Los datos serán conservados durante el tiempo necesario para cumplir con las finalidades para las que fueron recabados, \n    o hasta que el Usuario solicite su supresión. En algunos casos, se conservarán por períodos adicionales si existe una \n    obligación legal o contractual.\n  </p>\n\n  <h3>2.6. ¿A quién se comunican los datos?</h3>\n  <p>\n    Los datos no serán cedidos a terceros salvo obligación legal o cuando sea necesario para la prestación de un servicio contratado, \n    en cuyo caso se firmarán los contratos correspondientes con los encargados de tratamiento.\n  </p>\n  <p>\n    Algunos servicios de terceros pueden implicar transferencias internacionales. En estos casos, NMLSS garantiza que se cumplirán las \n    garantías exigidas por la legislación aplicable (decisiones de adecuación, cláusulas contractuales tipo, etc.).\n  </p>\n\n  <h3>2.7. Derechos del Usuario</h3>\n  <p>\n    Los Usuarios podrán ejercer los derechos de:\n  </p>\n  <ul>\n    <li>Acceso</li>\n    <li>Rectificación</li>\n    <li>Supresión</li>\n    <li>Oposición</li>\n    <li>Limitación del tratamiento</li>\n    <li>Portabilidad de los datos</li>\n  </ul>\n  <p>\n    Para ejercer estos derechos, se deberá enviar una solicitud a \n    <a href=\"mailto:[EMAIL DE CONTACTO]\">[EMAIL DE CONTACTO]</a>, adjuntando una copia del documento identificativo del interesado.\n  </p>\n  <p>\n    En caso de disconformidad con la respuesta recibida, el Usuario podrá presentar una reclamación ante la autoridad de protección \n    de datos correspondiente ([por ejemplo, AEPD en España]).\n  </p>\n\n  <h3>2.8. Seguridad de los datos</h3>\n  <p>\n    NMLSS aplica medidas técnicas y organizativas adecuadas para proteger los datos personales del Usuario frente a accesos no autorizados, \n    alteraciones, pérdidas o destrucción, de acuerdo con el estado de la tecnología y los riesgos identificados.\n  </p>\n\n  <h2>3. Comunicaciones promocionales</h2>\n  <p>\n    NMLSS podrá enviar comunicaciones comerciales o promocionales relativas a sus servicios únicamente si el Usuario ha otorgado su \n    consentimiento expreso. El Usuario podrá revocar dicho consentimiento en cualquier momento enviando un correo a \n    <a href=\"mailto:[EMAIL DE CONTACTO]\">[EMAIL DE CONTACTO]</a> o a través del enlace incluido en cada comunicación.\n  </p>\n\n  <h2>4. Cookies</h2>\n  <p>\n    NMLSS utiliza cookies y tecnologías similares para mejorar la experiencia de navegación y analizar el uso del Sitio Web. \n    Para más información, puede consultar nuestra <a href=\"/cookies-policy\" target=\"_blank\">Política de Cookies</a>.\n  </p>\n\n  <h2>5. Menores de edad</h2>\n  <p>\n    Los servicios ofrecidos a través del Sitio Web no están dirigidos a menores de 18 años. NMLSS no recopila voluntariamente \n    información de menores. Si detectamos que hemos recibido datos personales de un menor, procederemos a eliminarlos de forma inmediata.\n  </p>\n\n  <h2>6. Cambios en la Política de Privacidad</h2>\n  <p>\n    NMLSS se reserva el derecho de modificar la presente Política para adaptarla a cambios legislativos o en sus servicios. \n    Cualquier modificación será comunicada debidamente a través del Sitio Web. Se recomienda al Usuario revisarla periódicamente.\n  </p>\n\n  <p><strong>Fecha de última actualización:</strong> 31 de marzo de 2025</p>",
+    "cookiesPolicy": "<h1>Política de cookies</h1><h2></h2><p>El acceso y navegación en este sitio web (<strong>https://nmlss.io</strong>) puede implicar el uso de cookies. Las cookies son pequeños archivos de texto que se almacenan en el navegador del Usuario con el fin de reconocerlo, recordar sus preferencias y mejorar la experiencia de uso del sitio.</p>\n\n  <p>Las cookies permiten al sitio web, entre otras cosas, almacenar y recuperar información sobre los hábitos de navegación del Usuario o de su dispositivo. Esta información se utiliza para mejorar el funcionamiento y la personalización del contenido mostrado, sin dañar el equipo o dispositivo utilizado.</p>\n\n  <p>La información recopilada por las cookies puede incluir la fecha y hora de visita, páginas visitadas, tiempo de navegación, origen de la visita y otros datos técnicos relacionados con el dispositivo. No obstante, las cookies no acceden a información personal como nombre, dirección física o financiera, salvo que el Usuario la proporcione voluntariamente.</p>\n\n  <p>Las cookies que pueden identificar a una persona se consideran datos personales. Por tanto, su uso queda sujeto a nuestra \n    <a href=\"/privacidad\" target=\"_blank\">Política de Privacidad</a>. Para su instalación será necesario el consentimiento explícito del Usuario, mediante una acción afirmativa, informada y reversible.\n  </p>\n\n  <h2>Cookies propias</h2>\n  <p>Son aquellas cookies enviadas y gestionadas exclusivamente por NMLSS para garantizar el correcto funcionamiento del sitio web, la mejora continua de sus servicios y la experiencia del Usuario. Estas cookies permiten, por ejemplo, recordar las preferencias de idioma, mantener sesiones iniciadas y personalizar la interfaz según la configuración del Usuario.</p>\n\n  <h2>Cookies de terceros</h2>\n  <p>Son cookies gestionadas por servicios externos que colaboran con NMLSS para fines como el análisis de estadísticas de navegación, mejoras en el rendimiento del sitio o la integración con servicios de terceros. Estas cookies recopilan información de forma agregada y anónima.</p>\n\n  <p>Entre los servicios utilizados se encuentra, por ejemplo:</p>\n\n  <ul>\n    <li><strong>Google Analytics</strong>: para obtener estadísticas de uso, comportamiento de navegación y origen del tráfico. Puedes consultar más información en: \n      <a href=\"https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage?hl=es\" target=\"_blank\" rel=\"noopener noreferrer\">\n        https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage?hl=es\n      </a>\n    </li>\n  </ul>\n\n  <p>Estos terceros pueden usar los datos recopilados para mejorar sus propios servicios y pueden compartirlos con otros terceros si así lo exige la ley o si dichos terceros procesan la información por cuenta de ellos.</p>\n\n  <h2>Deshabilitar, rechazar o eliminar cookies</h2>\n  <p>El Usuario puede configurar su navegador para permitir, bloquear o eliminar las cookies instaladas en su dispositivo. Cada navegador tiene procedimientos distintos, por lo que recomendamos consultar las instrucciones específicas del navegador utilizado (Chrome, Firefox, Safari, Edge, entre otros).</p>\n\n  <p>Si el Usuario decide rechazar el uso de cookies, podrá continuar navegando por el sitio web, aunque algunas funcionalidades pueden quedar limitadas o no estar disponibles.</p>\n\n  <p><strong>Fecha de última actualización:</strong> 31 de marzo de 2025</p>",
+    "notFoundPage": {
+        "title": "Upps!",
+        "description": "<p>No hemos encontrado la página que buscas.</p><p>Parece que se ha ido a una galaxia muy, muy lejana.</p>",
+        "cta": "Volver al inicio"
+    }
+}
