@@ -12,11 +12,11 @@ export default function FoundationCard({ icon, title, description, className }: 
     const IconComponent = Icons[icon];
 
     return (
-        <article className={cn('max-w-xs flex flex-col gap-8 md:mx-auto', className)}>
-            <IconComponent className="w-60 h-60 transform-3d translate-3d" />
+        <article className={cn('flex max-w-xs flex-col gap-8 md:mx-auto', className)}>
+            <IconComponent className="h-60 w-60 translate-3d transform-3d" />
             <div className="flex flex-col gap-2">
                 <h4 className="text-xl font-medium">{title}</h4>
-                <p className="text-base font-light text-muted-foreground">{description}</p>
+                <p className="text-muted-foreground text-base font-light">{description}</p>
             </div>
         </article>
     );

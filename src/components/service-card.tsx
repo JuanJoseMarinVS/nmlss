@@ -14,22 +14,22 @@ interface ServiceCardProps {
 
 export default function ServiceCard({ image, background, title, description, to }: ServiceCardProps) {
     return (
-        <article className="flex flex-col gap-4 items-start h-full w-full md:max-w-md md:max-h-[690px]">
+        <article className="flex h-full w-full flex-col items-start gap-4 md:max-h-[690px] md:max-w-md">
             <NavLink
                 to={to}
-                className="w-full h-auto rounded-lg"
+                className="h-auto w-full rounded-lg"
             >
                 <motion.div
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 1.04 }}
-                    className="relative w-full h-full rounded-lg"
+                    className="relative h-full w-full rounded-lg"
                 >
                     <video
                         autoPlay={true}
                         muted={true}
                         playsInline={true}
                         loop={true}
-                        className="absolute top-0 bottom-0 right-0 left-0 rounded-2xl w-full h-full object-cover object-center hover:scale-110 transition-all duration-1000 ease-in-out cursor-pointer opacity-90"
+                        className="absolute top-0 right-0 bottom-0 left-0 h-full w-full cursor-pointer rounded-2xl object-cover object-center opacity-90 transition-all duration-1000 ease-in-out hover:scale-110"
                     >
                         <source
                             src={background}
@@ -39,13 +39,13 @@ export default function ServiceCard({ image, background, title, description, to 
                     <img
                         src={image}
                         alt={title}
-                        className="w-full h-full aspect-square rounded-2xl hover:scale-105 transition-all duration-1000 ease-in-out object-cover object-center cursor-pointer opacity-50 hover:opacity-40"
+                        className="aspect-square h-full w-full cursor-pointer rounded-2xl object-cover object-center opacity-50 transition-all duration-1000 ease-in-out hover:scale-105 hover:opacity-40"
                     />
                 </motion.div>
             </NavLink>
-            <div className="flex flex-col gap-2 items-start">
+            <div className="flex flex-col items-start gap-2">
                 <h3 className="text-foreground text-xl">{title}</h3>
-                <p className="text-sm leading-5 text-muted-foreground">{description}</p>
+                <p className="text-muted-foreground text-sm leading-5">{description}</p>
             </div>
 
             <NavLink to={to}>
@@ -54,7 +54,7 @@ export default function ServiceCard({ image, background, title, description, to 
                     whileTap={{ scale: 2 }}
                     className={cn(
                         buttonVariants({ variant: 'outline', size: 'icon' }),
-                        'flex items-center justify-center rounded-full cursor-pointer',
+                        'flex cursor-pointer items-center justify-center rounded-full',
                     )}
                 >
                     <ArrowUpRightIcon />

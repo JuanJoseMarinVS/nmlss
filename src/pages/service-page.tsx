@@ -19,8 +19,8 @@ export default function ServicePage() {
 
     return (
         <>
-            <section className="relative h-full w-full max-h-[1500px] flex justify-end items-center flex-col hover__video overflow-hidden">
-                <div className="absolute -bottom-2 right-0 left-0 w-full h-24 lg:h-96 bg-gradient-to-t from-background to-transparent z-10"></div>
+            <section className="hover__video relative flex h-full max-h-[1500px] w-full flex-col items-center justify-end overflow-hidden">
+                <div className="from-background absolute right-0 -bottom-2 left-0 z-10 h-24 w-full bg-gradient-to-t to-transparent lg:h-96"></div>
 
                 <video
                     key={background}
@@ -28,18 +28,18 @@ export default function ServicePage() {
                     muted={true}
                     playsInline={true}
                     loop={true}
-                    className="absolute top-0 bottom-0 right-0 left-0 w-full h-full object-cover object-center z-10 contrast-200 brightness-200 opacity-[2%] transition-all duration-1000 ease-in-out"
+                    className="absolute top-0 right-0 bottom-0 left-0 z-10 h-full w-full object-cover object-center opacity-[2%] brightness-200 contrast-200 transition-all duration-1000 ease-in-out"
                 >
                     <source src={background} />
                 </video>
 
-                <div className="flex justify-center items-center w-full h-full gap-4 max-w-7xl px-8 lg:px-16 mt-[40%] sm:mt-[25%] md:mt-[20%] mx-auto z-20">
-                    <div className=" flex flex-col justify-center items-center gap-5 md:gap-10">
-                        <h1 className="text-xs md:text-base text-muted-foreground font-medium text-center uppercase">
+                <div className="z-20 mx-auto mt-[40%] flex h-full w-full max-w-7xl items-center justify-center gap-4 px-8 sm:mt-[25%] md:mt-[20%] lg:px-16">
+                    <div className="flex flex-col items-center justify-center gap-5 md:gap-10">
+                        <h1 className="text-muted-foreground text-center text-xs font-medium uppercase md:text-base">
                             {title}
                         </h1>
-                        <h2 className="text-5xl md:text-7xl leading-none text-center">{hero.slogan}</h2>
-                        <span className="uppercase underline decoration-1 text-lg md:text-2xl font-semibold mt-8">
+                        <h2 className="text-center text-5xl leading-none md:text-7xl">{hero.slogan}</h2>
+                        <span className="mt-8 text-lg font-semibold uppercase underline decoration-1 md:text-2xl">
                             {hero.action}
                         </span>
                     </div>
@@ -48,62 +48,62 @@ export default function ServicePage() {
                 <img
                     src={hero.image}
                     alt="hero"
-                    className="w-full max-w-[1600px] h-full object-cover object-center z-0 -mt-10"
+                    className="z-0 -mt-10 h-full w-full max-w-[1600px] object-cover object-center"
                 />
             </section>
 
-            <section className="w-full h-full px-8 lg:px-16 py-32">
-                <div className="flex flex-col md:flex-row gap-16 max-w-7xl mx-auto text-foreground">
-                    <h3 className="text-5xl w-full sm:w-[80%] md:w-1/2">{hero.descriptionBold}</h3>
-                    <div className="w-full md:w-1/2 flex flex-col justify-center items-center gap-8">
-                        <p className="text-lg md:text-2xl text-muted-foreground font-light">{hero.description}</p>
+            <section className="h-full w-full px-8 py-32 lg:px-16">
+                <div className="text-foreground mx-auto flex max-w-7xl flex-col gap-16 md:flex-row">
+                    <h3 className="w-full text-5xl sm:w-[80%] md:w-1/2">{hero.descriptionBold}</h3>
+                    <div className="flex w-full flex-col items-center justify-center gap-8 md:w-1/2">
+                        <p className="text-muted-foreground text-lg font-light md:text-2xl">{hero.description}</p>
                         {hero.description2 && (
-                            <p className="text-lg md:text-2xl text-muted-foreground font-light">{hero.description2}</p>
+                            <p className="text-muted-foreground text-lg font-light md:text-2xl">{hero.description2}</p>
                         )}
                     </div>
                 </div>
             </section>
 
-            <section className="w-full h-full flex flex-col justify-center items-center gap-10 px-8 lg:px-16 pt-32 pb-8 md:pb-0">
-                <h4 className="text-2xl md:text-3xl w-full text-center -my-6 max-w-7xl mx-auto text-foreground">
+            <section className="flex h-full w-full flex-col items-center justify-center gap-10 px-8 pt-32 pb-8 md:pb-0 lg:px-16">
+                <h4 className="text-foreground mx-auto -my-6 w-full max-w-7xl text-center text-2xl md:text-3xl">
                     {intro.title}
                 </h4>
             </section>
 
-            <h2 className="text-[18vw] max-w-full font-serif text-center mx-auto leading-none whitespace-nowrap overflow-hidden text-ellipsis">
+            <h2 className="mx-auto max-w-full overflow-hidden text-center font-serif text-[18vw] leading-none text-ellipsis whitespace-nowrap">
                 {intro.word}
             </h2>
 
-            <section className="w-full h-full flex flex-col justify-center items-center gap-10 px-8 lg:px-16 pb-32">
-                <hr className="border-b border-muted-foreground w-[80%] 2xl:w-full max-w-7xl z-[2] my-32 xl:my-36 mx-auto" />
-                <div className="w-full flex flex-col gap-20 max-w-7xl mx-auto">
-                    <p className="w-full max-w-3xl font-light text-3xl md:text-4xl text-muted-foreground">
+            <section className="flex h-full w-full flex-col items-center justify-center gap-10 px-8 pb-32 lg:px-16">
+                <hr className="border-muted-foreground z-[2] mx-auto my-32 w-[80%] max-w-7xl border-b xl:my-36 2xl:w-full" />
+                <div className="mx-auto flex w-full max-w-7xl flex-col gap-20">
+                    <p className="text-muted-foreground w-full max-w-3xl text-3xl font-light md:text-4xl">
                         {intro.description}
                     </p>
                     {intro.descriptionBold && (
-                        <p className="w-full max-w-3xl font-bold text-4xl md:text-5xl text-foreground">
+                        <p className="text-foreground w-full max-w-3xl text-4xl font-bold md:text-5xl">
                             {intro.descriptionBold}
                         </p>
                     )}
                 </div>
             </section>
 
-            <section className="w-full h-full px-8 lg:px-16 py-32">
-                <div className="flex flex-col gap-28 max-w-7xl mx-auto">
-                    <h5 className="text-4xl md:text-5xl w-full max-w-4xl text-muted-foreground">{items.title}</h5>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
+            <section className="h-full w-full px-8 py-32 lg:px-16">
+                <div className="mx-auto flex max-w-7xl flex-col gap-28">
+                    <h5 className="text-muted-foreground w-full max-w-4xl text-4xl md:text-5xl">{items.title}</h5>
+                    <div className="grid grid-cols-1 gap-16 md:grid-cols-3">
                         {items.list.map((item, index) => (
                             <article
                                 key={index}
-                                className="w-full flex flex-col gap-3 justify-start items-start max-w-xs"
+                                className="flex w-full max-w-xs flex-col items-start justify-start gap-3"
                             >
                                 <img
                                     src={item.image}
                                     alt={item.title}
-                                    className="w-[96px] h-[96px] aspect-square"
+                                    className="aspect-square h-[96px] w-[96px]"
                                 />
                                 <h4 className="text-2xl font-semibold">{item.title}</h4>
-                                <p className="text-lg text-muted-foreground">{item.description}</p>
+                                <p className="text-muted-foreground text-lg">{item.description}</p>
                             </article>
                         ))}
                     </div>

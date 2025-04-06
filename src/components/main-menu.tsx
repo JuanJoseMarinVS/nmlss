@@ -57,11 +57,11 @@ export default function MainMenu() {
             <motion.nav
                 initial={{ opacity: 0, y: -100 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="hidden fixed top-2 lg:top-4 right-4 lg:right-8 w-2xl h-10 lg:flex justify-between items-center rounded-full backdrop-blur-3xl uppercase z-40 mix-blend-difference text-background dark:text-foreground"
+                className="text-background dark:text-foreground fixed top-2 right-4 z-40 hidden h-10 w-2xl items-center justify-between rounded-full uppercase mix-blend-difference backdrop-blur-3xl lg:top-4 lg:right-8 lg:flex"
             >
                 <NavLink
                     to="/"
-                    className="w-1/5 h-full flex justify-center items-center text-sm font-medium transition-all duration-300 ease-in-out hover:scale-105 cursor-pointer z-1"
+                    className="z-1 flex h-full w-1/5 cursor-pointer items-center justify-center text-sm font-medium transition-all duration-300 ease-in-out hover:scale-105"
                 >
                     {t('mainMenuComponent.home')}
                 </NavLink>
@@ -69,21 +69,21 @@ export default function MainMenu() {
                 <NavigationMenu>
                     <NavigationMenuList>
                         <NavigationMenuItem>
-                            <NavigationMenuTrigger className="w-full h-full bg-transparent hover:bg-transparent flex justify-center items-center rounded-full text-sm font-medium transition-all duration-300 ease-in-out cursor-pointer uppercase z-1">
+                            <NavigationMenuTrigger className="z-1 flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-transparent text-sm font-medium uppercase transition-all duration-300 ease-in-out hover:bg-transparent">
                                 {t('mainMenuComponent.services')}
                             </NavigationMenuTrigger>
                             <NavigationMenuContent>
-                                <ul className="w-64 grid gap-3 p-1 cursor-pointer capitalize">
+                                <ul className="grid w-64 cursor-pointer gap-3 p-1 capitalize">
                                     {services.map((service: Service, index: number) => (
                                         <li key={index}>
                                             <NavigationMenuLink asChild>
                                                 <NavLink
                                                     to={`/service/${service.id}`}
                                                     className={cn(
-                                                        'block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground hover:scale-105',
+                                                        'hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground block space-y-1 rounded-md p-3 leading-none no-underline transition-colors outline-none select-none hover:scale-105',
                                                     )}
                                                 >
-                                                    <span className="text-sm font-medium leading-none">
+                                                    <span className="text-sm leading-none font-medium">
                                                         {service.title}
                                                     </span>
                                                 </NavLink>
@@ -98,21 +98,21 @@ export default function MainMenu() {
 
                 <NavLink
                     to="/about-us"
-                    className="w-1/5 h-full flex justify-center items-center text-sm font-medium transition-all duration-300 ease-in-out hover:scale-105 cursor-pointer z-1"
+                    className="z-1 flex h-full w-1/5 cursor-pointer items-center justify-center text-sm font-medium transition-all duration-300 ease-in-out hover:scale-105"
                 >
                     {t('mainMenuComponent.aboutUs')}
                 </NavLink>
 
                 <NavLink
                     to="/projects"
-                    className="w-1/5 h-full flex justify-center items-center text-sm font-medium transition-all duration-300 ease-in-out hover:scale-105 cursor-pointer z-1"
+                    className="z-1 flex h-full w-1/5 cursor-pointer items-center justify-center text-sm font-medium transition-all duration-300 ease-in-out hover:scale-105"
                 >
                     {t('mainMenuComponent.projects')}
                 </NavLink>
 
                 <NavLink
                     to="/contact"
-                    className="w-1/5 h-full flex justify-center items-center text-sm font-medium bg-background/15 dark:bg-foreground/15 rounded-full transition-all duration-300 ease-in-out hover:scale-105 cursor-pointer z-1 ml-5"
+                    className="bg-background/15 dark:bg-foreground/15 z-1 ml-5 flex h-full w-1/5 cursor-pointer items-center justify-center rounded-full text-sm font-medium transition-all duration-300 ease-in-out hover:scale-105"
                 >
                     {t('mainMenuComponent.contact')}
                 </NavLink>
@@ -121,7 +121,7 @@ export default function MainMenu() {
             <motion.button
                 animate={isOpen ? 'open' : 'closed'}
                 onClick={toggleMenu}
-                className="lg:hidden w-12 h-12 fixed top-2 md:top-4 right-4 md:right-8 flex justify-center items-center z-50 backdrop-blur-3xl rounded-[50%] outline-none border-none cursor-pointer mix-blend-difference"
+                className="fixed top-2 right-4 z-50 flex h-12 w-12 cursor-pointer items-center justify-center rounded-[50%] border-none mix-blend-difference backdrop-blur-3xl outline-none md:top-4 md:right-8 lg:hidden"
             >
                 <svg
                     width="20"
@@ -165,30 +165,30 @@ export default function MainMenu() {
                 <motion.nav
                     initial={false}
                     animate={isOpen2 ? 'open' : 'closed'}
-                    className="lg:hidden fixed top-0 bottom-0 left-0 right-0 z-40 h-screen w-screen"
+                    className="fixed top-0 right-0 bottom-0 left-0 z-40 h-screen w-screen lg:hidden"
                 >
                     <motion.div
                         variants={sidebarVariants}
-                        className="absolute top-0 bottom-0 right-0 left-0 w-full h-full"
+                        className="absolute top-0 right-0 bottom-0 left-0 h-full w-full"
                     >
-                        <div className="relative w-full h-full flex flex-col justify-between px-11 py-24 bg-background">
-                            <div className="w-full flex flex-col gap-16">
+                        <div className="bg-background relative flex h-full w-full flex-col justify-between px-11 py-24">
+                            <div className="flex w-full flex-col gap-16">
                                 <button
-                                    className="w-1/4 text-start font-normal text-3xl hover:text-foreground/70 transition-all duration-300 ease-in-out hover:scale-105 cursor-pointer"
+                                    className="hover:text-foreground/70 w-1/4 cursor-pointer text-start text-3xl font-normal transition-all duration-300 ease-in-out hover:scale-105"
                                     onClick={() => handleLinkClick('/')}
                                 >
                                     {t('mainMenuComponent.home')}
                                 </button>
 
-                                <div className="w-[80%] flex flex-col gap-4">
-                                    <h5 className="uppercase text-muted-foreground text-sm">
+                                <div className="flex w-[80%] flex-col gap-4">
+                                    <h5 className="text-muted-foreground text-sm uppercase">
                                         {t('mainMenuComponent.services')}
                                     </h5>
-                                    <nav className="w-full flex flex-col gap-4">
+                                    <nav className="flex w-full flex-col gap-4">
                                         {services.map((service: Service, index: number) => (
                                             <button
                                                 key={index}
-                                                className="w-full text-start font-normal text-3xl hover:text-foreground/70 transition-all duration-300 ease-in-out hover:scale-105 cursor-pointer"
+                                                className="hover:text-foreground/70 w-full cursor-pointer text-start text-3xl font-normal transition-all duration-300 ease-in-out hover:scale-105"
                                                 onClick={() => handleLinkClick(`/service/${service.id}`)}
                                             >
                                                 {service.title}
@@ -197,21 +197,21 @@ export default function MainMenu() {
                                     </nav>
                                 </div>
 
-                                <div className="w-1/2 flex flex-col gap-4">
+                                <div className="flex w-1/2 flex-col gap-4">
                                     <button
-                                        className="w-full text-start font-normal text-3xl hover:text-foreground/70 transition-all duration-300 ease-in-out hover:scale-105 cursor-pointer"
+                                        className="hover:text-foreground/70 w-full cursor-pointer text-start text-3xl font-normal transition-all duration-300 ease-in-out hover:scale-105"
                                         onClick={() => handleLinkClick('/about-us')}
                                     >
                                         {t('mainMenuComponent.aboutUs')}
                                     </button>
                                     <button
-                                        className="w-full text-start font-normal text-3xl hover:text-foreground/70 transition-all duration-300 ease-in-out hover:scale-105 cursor-pointer"
+                                        className="hover:text-foreground/70 w-full cursor-pointer text-start text-3xl font-normal transition-all duration-300 ease-in-out hover:scale-105"
                                         onClick={() => handleLinkClick('/projects')}
                                     >
                                         {t('mainMenuComponent.projects')}
                                     </button>
                                     <button
-                                        className="w-full text-start font-normal text-3xl hover:text-foreground/70 transition-all duration-300 ease-in-out hover:scale-105 cursor-pointer"
+                                        className="hover:text-foreground/70 w-full cursor-pointer text-start text-3xl font-normal transition-all duration-300 ease-in-out hover:scale-105"
                                         onClick={() => handleLinkClick('/contact')}
                                     >
                                         {t('mainMenuComponent.contact')}

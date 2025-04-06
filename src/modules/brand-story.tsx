@@ -15,40 +15,44 @@ export default function BrandStory() {
     const foundations: Foundation[] = t('brandStoryModule.foundations', { returnObjects: true }) as Foundation[];
 
     return (
-        <section className="w-full h-max flex flex-col justify-center items-center px-8 lg:px-16 py-32">
-            <div className="relative w-full h-full flex flex-col justify-center items-start gap-10 pb-20 md:gap-20 max-w-7xl mx-auto">
-                <div className="w-full text-foreground flex flex-col gap-5 md:gap-8">
-                    <h2 className="text-4xl md:text-6xl">{t('brandStoryModule.title')}</h2>
-                </div>
-                <div className="w-full h-full flex flex-col gap-8">
-                    <div className="absolute top-0 right-0 left-0 w-full h-full -z-10">
-                        <img
-                            src="https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/65881c4cf416b931295790b9_aboutus-nebula.webp"
-                            alt="Nebula"
-                            className="w-full h-full object-cover object-center rounded-lg"
-                        />
-                    </div>
-                    <div className="w-full flex flex-col justify-center items-end gap-8 md:gap-20">
-                        <div className="w-full">
-                            <Icons.BrandStory className="w-full max-w-[700px] h-full max-h-[510px] translate-3d transform-3d mx-auto my-8" />
-                        </div>
-                        <div className="max-w-64">
-                            <div className="text-foreground">{t('brandStoryModule.brandName')}</div>
-                            <p className="text-muted-foreground text-sm">{t('brandStoryModule.brandDescription')}</p>
-                        </div>
-                    </div>
-                </div>
+        <section className="relative flex h-max w-full flex-col items-center justify-center">
+            <div className="absolute top-0 right-0 left-0 -z-10 mx-auto h-full max-h-[1200px] w-[100%]">
+                <img
+                    src="https://cdn.prod.website-files.com/6564b69607ddc080dcbef99d/65881c4cf416b931295790b9_aboutus-nebula.webp"
+                    alt="Nebula"
+                    className="h-full w-full object-cover object-center md:object-contain"
+                />
             </div>
-            <div className="relative h-full w-full md:w-auto grid grid-cols-1 md:grid-cols-2 pt-20 gap-32 max-w-7xl mx-auto">
-                {foundations.map((item, index) => (
-                    <FoundationCard
-                        key={index}
-                        icon={item.icon}
-                        title={item.title}
-                        description={item.description}
-                        className={cn(index % 2 === 0 ? '' : 'md:translate-y-48')}
-                    />
-                ))}
+            <div className="flex h-full w-full flex-col items-center justify-center px-8 py-52 lg:px-16">
+                <div className="mx-auto flex h-full w-full max-w-7xl flex-col items-start justify-center gap-10 pb-20 md:gap-20">
+                    <div className="text-foreground flex w-full max-w-xl flex-col gap-5 md:gap-8">
+                        <h2 className="text-4xl md:text-6xl">{t('brandStoryModule.title')}</h2>
+                    </div>
+                    <div className="flex h-full w-full flex-col gap-8">
+                        <div className="flex w-full flex-col items-end justify-center gap-8 md:gap-16">
+                            <div className="h-full w-full">
+                                <Icons.BrandStory className="mx-auto my-8 h-full max-h-[510px] w-full max-w-[700px] translate-3d transform-3d" />
+                            </div>
+                            <div className="max-w-64">
+                                <div className="text-foreground">{t('brandStoryModule.brandName')}</div>
+                                <p className="text-muted-foreground text-sm">
+                                    {t('brandStoryModule.brandDescription')}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="relative mx-auto grid h-full w-full max-w-7xl grid-cols-1 gap-32 pt-20 md:w-auto md:grid-cols-2">
+                    {foundations.map((item, index) => (
+                        <FoundationCard
+                            key={index}
+                            icon={item.icon}
+                            title={item.title}
+                            description={item.description}
+                            className={cn(index % 2 === 0 ? '' : 'md:translate-y-48')}
+                        />
+                    ))}
+                </div>
             </div>
         </section>
     );

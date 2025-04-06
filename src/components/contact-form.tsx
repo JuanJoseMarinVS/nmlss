@@ -60,20 +60,20 @@ export function ContactForm() {
         <Form {...form}>
             <form
                 onSubmit={form.handleSubmit(onSubmit)}
-                className="w-full space-y-12 text-background"
+                className="text-background w-full space-y-12"
             >
                 <FormField
                     control={form.control}
                     name="name"
                     render={({ field }) => (
                         <FormItem>
-                            <FormLabel className="text-2xl text-accent normal-case">
+                            <FormLabel className="text-accent text-2xl normal-case">
                                 {t('contactForm.nameLabel')}
                             </FormLabel>
                             <FormControl>
                                 <Input
                                     placeholder={t('contactForm.namePlaceholder')}
-                                    className="border-transparent h-12 border-b-background rounded-none"
+                                    className="border-b-background h-12 rounded-none border-transparent"
                                     {...field}
                                 />
                             </FormControl>
@@ -86,14 +86,14 @@ export function ContactForm() {
                     name="email"
                     render={({ field }) => (
                         <FormItem>
-                            <FormLabel className="text-2xl text-accent normal-case">
+                            <FormLabel className="text-accent text-2xl normal-case">
                                 {t('contactForm.emailLabel')}
                             </FormLabel>
                             <FormControl>
                                 <Input
                                     type="email"
                                     placeholder={t('contactForm.emailPlaceholder')}
-                                    className="border-transparent h-12 border-b-background rounded-none"
+                                    className="border-b-background h-12 rounded-none border-transparent"
                                     {...field}
                                 />
                             </FormControl>
@@ -106,14 +106,14 @@ export function ContactForm() {
                     name="phone"
                     render={({ field }) => (
                         <FormItem>
-                            <FormLabel className="text-2xl text-accent normal-case">
+                            <FormLabel className="text-accent text-2xl normal-case">
                                 {t('contactForm.phoneLabel')}
                             </FormLabel>
                             <FormControl>
                                 <Input
                                     type="number"
                                     placeholder={t('contactForm.phonePlaceholder')}
-                                    className="border-transparent h-12 border-b-background rounded-none"
+                                    className="border-b-background h-12 rounded-none border-transparent"
                                     {...field}
                                 />
                             </FormControl>
@@ -126,13 +126,13 @@ export function ContactForm() {
                     name="projectName"
                     render={({ field }) => (
                         <FormItem>
-                            <FormLabel className="text-2xl text-accent normal-case">
+                            <FormLabel className="text-accent text-2xl normal-case">
                                 {t('contactForm.projectNameLabel')}
                             </FormLabel>
                             <FormControl>
                                 <Input
                                     placeholder={t('contactForm.projectNamePlaceholder')}
-                                    className="border-transparent h-12 border-b-background rounded-none"
+                                    className="border-b-background h-12 rounded-none border-transparent"
                                     {...field}
                                 />
                             </FormControl>
@@ -145,13 +145,13 @@ export function ContactForm() {
                     name="howDidYouHear"
                     render={({ field }) => (
                         <FormItem>
-                            <FormLabel className="text-2xl text-accent normal-case">
+                            <FormLabel className="text-accent text-2xl normal-case">
                                 {t('contactForm.howDidYouHearLabel')}
                             </FormLabel>
                             <FormControl>
                                 <Textarea
                                     placeholder={t('contactForm.howDidYouHearPlaceholder')}
-                                    className="border-transparent h-12 border-b-background rounded-none min-h-40"
+                                    className="border-b-background h-12 min-h-40 rounded-none border-transparent"
                                     {...field}
                                 />
                             </FormControl>
@@ -163,15 +163,15 @@ export function ContactForm() {
                     control={form.control}
                     name="terms"
                     render={({ field }) => (
-                        <FormItem className="flex flex-row items-start space-x-3 space-y-0 rounded-md border">
+                        <FormItem className="flex flex-row items-start space-y-0 space-x-3 rounded-md border">
                             <FormControl>
                                 <Checkbox
                                     checked={field.value}
                                     onCheckedChange={field.onChange}
-                                    className="border-background cursor-pointer h-6 w-6 rounded-md"
+                                    className="border-background h-6 w-6 cursor-pointer rounded-md"
                                 />
                             </FormControl>
-                            <div className="space-y-1 leading-none text-background">
+                            <div className="text-background space-y-1 leading-none">
                                 <FormLabel className="cursor-pointer">{t('contactForm.termsLabel')}</FormLabel>
                                 <FormDescription className="text-muted">
                                     <Trans
@@ -195,7 +195,7 @@ export function ContactForm() {
                     disabled={!form.formState.isValid || disabled}
                     whileHover={{ scale: 1.2 }}
                     whileTap={{ scale: 1.4 }}
-                    className={cn(buttonVariants({ variant: 'secondary' }), 'cursor-pointer p-8 text-xl rounded-full')}
+                    className={cn(buttonVariants({ variant: 'secondary' }), 'cursor-pointer rounded-full p-8 text-xl')}
                 >
                     {t('contactForm.submitLabel')}
                 </motion.button>

@@ -12,18 +12,18 @@ interface TeamCardProps {
 
 export default function TeamCard({ name, position, image, description, link }: TeamCardProps) {
     return (
-        <article className="w-full flex flex-col items-center justify-center gap-4 text-background">
-            <div className="overflow-hidden w-full h-full flex justify-center items-center rounded-md aspect-video">
+        <article className="text-background flex w-full flex-col items-center justify-center gap-4">
+            <div className="flex aspect-video h-full w-full items-center justify-center overflow-hidden rounded-md">
                 <img
                     src={image}
                     alt={name}
-                    className="w-full h-full object-cover object-center rounded-md hover:scale-125 transition-transform duration-500 ease-in-out"
+                    className="h-full w-full rounded-md object-cover object-center transition-transform duration-500 ease-in-out hover:scale-125"
                 />
             </div>
-            <div className="flex flex-col justify-center items-start">
+            <div className="flex flex-col items-start justify-center">
                 <h3 className="text-2xl">{name}</h3>
-                <p className="text-sm text-muted">{position}</p>
-                <p className="text-justify text-base leading-5 mt-4">{description}</p>
+                <p className="text-muted text-sm">{position}</p>
+                <p className="mt-4 text-justify text-base leading-5">{description}</p>
                 <NavLink
                     to={link}
                     target="_blank"

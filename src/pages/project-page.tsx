@@ -34,21 +34,21 @@ export default function ProjectPage() {
 
     return (
         <>
-            <section className="w-full h-full px-8 lg:px-16 py-52 bg-foreground">
-                <div className="flex flex-col gap-36 md:gap-52 max-w-7xl mx-auto">
-                    <div className="w-full flex flex-col gap-5 md:gap-8 lg:gap-14">
-                        <h1 className="text-7xl md:text-8xl text-background">{project.title}</h1>
-                        <h2 className="text-2xl md:text-6xl font-light text-muted">{project.slogan}</h2>
+            <section className="bg-foreground h-full w-full px-8 py-52 lg:px-16">
+                <div className="mx-auto flex max-w-7xl flex-col gap-36 md:gap-52">
+                    <div className="flex w-full flex-col gap-5 md:gap-8 lg:gap-14">
+                        <h1 className="text-background text-7xl md:text-8xl">{project.title}</h1>
+                        <h2 className="text-muted text-2xl font-light md:text-6xl">{project.slogan}</h2>
                         <img
                             src={project.hero}
                             alt="hero"
-                            className="w-full max-w-[1300px] h-full object-cover object-center mt-12"
+                            className="mt-12 h-full w-full max-w-[1300px] object-cover object-center"
                         />
                     </div>
 
-                    <div className="w-full flex flex-col md:flex-row gap-12">
-                        <h3 className="w-[40%] text-5xl md:text-6xl text-background">{t('projectPage.project')}</h3>
-                        <div className="md:w-[60%] flex flex-col gap-5 text-muted text-xl md:text-2xl">
+                    <div className="flex w-full flex-col gap-12 md:flex-row">
+                        <h3 className="text-background w-[40%] text-5xl md:text-6xl">{t('projectPage.project')}</h3>
+                        <div className="text-muted flex flex-col gap-5 text-xl md:w-[60%] md:text-2xl">
                             <Trans
                                 i18nKey={project.description}
                                 t={t}
@@ -60,7 +60,7 @@ export default function ProjectPage() {
                         s
                     </div>
 
-                    <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div className="grid w-full grid-cols-1 gap-8 md:grid-cols-2">
                         {project.images.map((media, i) => {
                             const isRectangular = new Image();
                             isRectangular.src = media;
@@ -71,7 +71,7 @@ export default function ProjectPage() {
                                     key={i}
                                     src={media}
                                     alt="project"
-                                    className={`w-full h-full ${isWide ? 'md:col-span-2' : ''}`}
+                                    className={`h-full w-full ${isWide ? 'md:col-span-2' : ''}`}
                                 />
                             ) : isVideo(media) ? (
                                 <video
@@ -80,7 +80,7 @@ export default function ProjectPage() {
                                     muted={true}
                                     playsInline={true}
                                     loop={true}
-                                    className={`w-full h-full ${isWide ? 'md:col-span-2' : ''}`}
+                                    className={`h-full w-full ${isWide ? 'md:col-span-2' : ''}`}
                                 >
                                     <source src={media} />
                                 </video>
@@ -88,23 +88,23 @@ export default function ProjectPage() {
                         })}
                     </div>
 
-                    <div className="w-full md:max-w-1/2 flex flex-col gap-4 ml-auto text-accent">
-                        <h4 className="w-full text-sm md:text-lg uppercase font-semibold">{t('projectPage.review')}</h4>
+                    <div className="text-accent ml-auto flex w-full flex-col gap-4 md:max-w-1/2">
+                        <h4 className="w-full text-sm font-semibold uppercase md:text-lg">{t('projectPage.review')}</h4>
                         <p className="text-3xl font-light">{review.text}</p>
-                        <div className="flex flex-col mt-6">
+                        <div className="mt-6 flex flex-col">
                             <p className="text-2xl">{review.author}</p>
-                            <p className="text-lg text-muted">{review.role}</p>
+                            <p className="text-muted text-lg">{review.role}</p>
                         </div>
                     </div>
 
-                    <div className="w-full flex flex-col gap-12">
-                        <hr className="w-full border-background" />
+                    <div className="flex w-full flex-col gap-12">
+                        <hr className="border-background w-full" />
 
-                        <h5 className="w-full text-5xl md:text-4xl font-light text-background">
+                        <h5 className="text-background w-full text-5xl font-light md:text-4xl">
                             {t('projectPage.moreProjects')}
                         </h5>
 
-                        <div className="h-full grid grid-cols-1 md:grid-cols-2 gap-y-14 md:gap-x-8">
+                        <div className="grid h-full grid-cols-1 gap-y-14 md:grid-cols-2 md:gap-x-8">
                             {shuffledProjects.map((project: Project, index: number) => (
                                 <ProjectCard
                                     key={index}
