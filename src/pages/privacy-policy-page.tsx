@@ -17,7 +17,7 @@ export default function PrivacyPolicyPage() {
                             ul: <ul className="pl-12" />,
                             li: <li className="list-disc list-inside" />,
                             a: (
-                                <a className="text-background hover:text-accent/70 transition-all duration-300 ease-in-out" />
+                                <a className="text-background hover:text-accent/70 transition-all duration-300 ease-in-out break-all" />
                             ),
                         }}
                     />

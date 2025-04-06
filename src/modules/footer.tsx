@@ -20,12 +20,12 @@ export default function Footer() {
                             to={`mailto:${t('footer.email')}`}
                             className="flex justify-center items-center gap-4 cursor-pointer hover:scale-105 transition-all duration-300 ease-in-out"
                         >
-                            <SendIcon className="w-10 h-10 transform-3d translate-3d" />
-                            <span className="text-2xl md:text-4xl">{t('footer.email')}</span>
+                            <SendIcon className="w-8 h-8 md:w-10 md:h-10 transform-3d translate-3d" />
+                            <span className="text-xl sm:text-2xl md:text-4xl">{t('footer.email')}</span>
                         </NavLink>
                     </div>
                     <nav className="grid grid-cols-1 md:grid-cols-2 gap-y-12 md:gap-x-8">
-                        <div className="w-52 flex flex-col gap-2">
+                        <div className="w-40 flex flex-col gap-2">
                             <h5 className="mb-2 text-[1rem] md:text-sm text-muted-foreground uppercase">
                                 {t('footer.servicesTitle')}
                             </h5>
@@ -39,7 +39,7 @@ export default function Footer() {
                                 </NavLink>
                             ))}
                         </div>
-                        <div className="w-52 flex flex-col gap-2">
+                        <div className="w-40 flex flex-col gap-2">
                             <h5 className="mb-2 text-[1rem] md:text-sm text-muted-foreground uppercase">
                                 {t('footer.name')}
                             </h5>

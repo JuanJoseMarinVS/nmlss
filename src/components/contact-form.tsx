@@ -67,7 +67,7 @@ export function ContactForm() {
                     name="name"
                     render={({ field }) => (
                         <FormItem>
-                            <FormLabel className="text-xl text-accent capitalize">
+                            <FormLabel className="text-2xl text-accent normal-case">
                                 {t('contactForm.nameLabel')}
                             </FormLabel>
                             <FormControl>
@@ -86,7 +86,7 @@ export function ContactForm() {
                     name="email"
                     render={({ field }) => (
                         <FormItem>
-                            <FormLabel className="text-xl text-accent capitalize">
+                            <FormLabel className="text-2xl text-accent normal-case">
                                 {t('contactForm.emailLabel')}
                             </FormLabel>
                             <FormControl>
@@ -106,7 +106,7 @@ export function ContactForm() {
                     name="phone"
                     render={({ field }) => (
                         <FormItem>
-                            <FormLabel className="text-xl text-accent capitalize">
+                            <FormLabel className="text-2xl text-accent normal-case">
                                 {t('contactForm.phoneLabel')}
                             </FormLabel>
                             <FormControl>
@@ -126,7 +126,7 @@ export function ContactForm() {
                     name="projectName"
                     render={({ field }) => (
                         <FormItem>
-                            <FormLabel className="text-xl text-accent capitalize">
+                            <FormLabel className="text-2xl text-accent normal-case">
                                 {t('contactForm.projectNameLabel')}
                             </FormLabel>
                             <FormControl>
@@ -145,7 +145,7 @@ export function ContactForm() {
                     name="howDidYouHear"
                     render={({ field }) => (
                         <FormItem>
-                            <FormLabel className="text-xl text-accent capitalize">
+                            <FormLabel className="text-2xl text-accent normal-case">
                                 {t('contactForm.howDidYouHearLabel')}
                             </FormLabel>
                             <FormControl>

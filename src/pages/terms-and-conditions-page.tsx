@@ -5,8 +5,8 @@ export default function TermsAndConditionsPage() {
 
     return (
         <section className="w-full h-full px-8 lg:px-16 py-52 bg-foreground">
-            <div className="flex flex-col max-w-7xl mx-auto">
-                <div className="flex flex-col gap-4 max-w-4xl mr-auto text-accent text-lg">
+            <div className="w-full flex flex-col max-w-7xl mx-auto">
+                <div className="w-full flex flex-col gap-4 max-w-4xl mr-auto text-accent text-lg">
                     <Trans
                         i18nKey="termsAndConditions"
                         t={t}
@@ -17,7 +17,7 @@ export default function TermsAndConditionsPage() {
                             ul: <ul className="pl-12" />,
                             li: <li className="list-disc list-inside" />,
                             a: (
-                                <a className="text-background hover:text-accent/70 transition-all duration-300 ease-in-out" />
+                                <a className="text-background hover:text-accent/70 transition-all duration-300 ease-in-out break-all" />
                             ),
                         }}
                     />

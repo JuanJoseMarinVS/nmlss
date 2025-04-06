@@ -57,6 +57,7 @@ export default function ProjectPage() {
                                 }}
                             />
                         </div>
+                        s
                     </div>
 
                     <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -75,10 +76,14 @@ export default function ProjectPage() {
                             ) : isVideo(media) ? (
                                 <video
                                     key={i}
-                                    src={media}
-                                    controls
+                                    autoPlay={true}
+                                    muted={true}
+                                    playsInline={true}
+                                    loop={true}
                                     className={`w-full h-full ${isWide ? 'md:col-span-2' : ''}`}
-                                />
+                                >
+                                    <source src={media} />
+                                </video>
                             ) : null;
                         })}
                     </div>
@@ -95,9 +100,9 @@ export default function ProjectPage() {
                     <div className="w-full flex flex-col gap-12">
                         <hr className="w-full border-background" />
 
-                        <h4 className="w-full text-5xl md:text-4xl font-light text-background">
+                        <h5 className="w-full text-5xl md:text-4xl font-light text-background">
                             {t('projectPage.moreProjects')}
-                        </h4>
+                        </h5>
 
                         <div className="h-full grid grid-cols-1 md:grid-cols-2 gap-y-14 md:gap-x-8">
                             {shuffledProjects.map((project: Project, index: number) => (

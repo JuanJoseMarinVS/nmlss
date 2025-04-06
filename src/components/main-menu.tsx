@@ -1,6 +1,6 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import * as motion from 'motion/react-client';
+import { motion } from 'motion/react';
 import { NavLink, useNavigate } from 'react-router';
 import {
     NavigationMenu,
@@ -37,20 +37,20 @@ export default function MainMenu() {
     };
 
     const handleLinkClick = (to: string) => {
-        if (isOpen) {
-            setIsOpen2(false);
-            setTimeout(() => {
-                setIsOpen(false);
-                navigate(to);
-            }, 600); // Match the duration of the animation
-        } else {
-            setIsOpen(true);
-            setTimeout(() => {
-                setIsOpen2(true);
-                navigate(to);
-            }, 100);
-        }
+        navigate(to);
+        setIsOpen2(false);
+        setTimeout(() => {
+            setIsOpen(false);
+        }, 600); // Match the duration of the animation
     };
+
+    useEffect(() => {
+        if (isOpen) {
+            document.body.classList.add('no__scroll');
+        } else {
+            document.body.classList.remove('no__scroll');
+        }
+    }, [isOpen]);
 
     return (
         <>
@@ -165,7 +165,7 @@ export default function MainMenu() {
                 <motion.nav
                     initial={false}
                     animate={isOpen2 ? 'open' : 'closed'}
-                    className="lg:hidden fixed top-0 bottom-0 left-0 right-0 z-40"
+                    className="lg:hidden fixed top-0 bottom-0 left-0 right-0 z-40 h-screen w-screen"
                 >
                     <motion.div
                         variants={sidebarVariants}
@@ -180,11 +180,11 @@ export default function MainMenu() {
                                     {t('mainMenuComponent.home')}
                                 </button>
 
-                                <div className="w-1/2 flex flex-col gap-4">
+                                <div className="w-[80%] flex flex-col gap-4">
                                     <h5 className="uppercase text-muted-foreground text-sm">
                                         {t('mainMenuComponent.services')}
                                     </h5>
-                                    <nav className="flex flex-col gap-4">
+                                    <nav className="w-full flex flex-col gap-4">
                                         {services.map((service: Service, index: number) => (
                                             <button
                                                 key={index}
