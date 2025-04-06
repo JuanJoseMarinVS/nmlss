@@ -1,29 +1,45 @@
-import { useState } from 'react';
-import { NavLink } from 'react-router';
-import { z } from 'zod';
+import { useEffect, useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
+import { zodResolver } from '@hookform/resolvers/zod';
+import { motion } from 'motion/react';
 import { useForm } from 'react-hook-form';
 import { Trans, useTranslation } from 'react-i18next';
+import { NavLink } from 'react-router';
 import { toast } from 'sonner';
-import { motion } from 'motion/react';
-import { zodResolver } from '@hookform/resolvers/zod';
+import { z } from 'zod';
+
+import { envs } from '@/config/envs.ts';
+import { cn } from '@/lib/utils.ts';
+
 import { buttonVariants } from '@/components/ui/button';
+import { Checkbox } from '@/components/ui/checkbox';
 import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from '@/components/ui/form';
 import { Input } from '@/components/ui/input';
-import { Checkbox } from '@/components/ui/checkbox';
 import { Textarea } from '@/components/ui/textarea.tsx';
-import { cn } from '@/lib/utils.ts';
 
 export function ContactForm() {
     const { t } = useTranslation();
 
+    const formRef = useRef<HTMLFormElement>(null);
     const [disabled, setDisabled] = useState(false);
+
+    useEffect(() => {
+        emailjs.init({
+            publicKey: envs.emailJsPublicKey,
+            blockHeadless: true,
+            limitRate: {
+                id: 'contact-form',
+                throttle: 60000,
+            },
+        });
+    }, []);
 
     const FormSchema = z.object({
         name: z.string().min(2, { message: t('contactForm.nameValidation') }),
         projectName: z.string().min(2, { message: t('contactForm.projectNameValidation') }),
         phone: z.string().min(10, { message: t('contactForm.phoneValidation') }),
         email: z.string().email({ message: t('contactForm.emailValidation') }),
-        howDidYouHear: z.string().min(20, { message: t('contactForm.howDidYouHearValidation') }),
+        message: z.string().min(20, { message: t('contactForm.messageValidation') }),
         terms: z.boolean().refine((val) => val, { message: t('contactForm.termsValidation') }),
     });
 
@@ -34,7 +50,7 @@ export function ContactForm() {
             projectName: '',
             phone: '',
             email: '',
-            howDidYouHear: '',
+            message: '',
             terms: false,
         },
     });
@@ -42,23 +58,57 @@ export function ContactForm() {
     function onSubmit(data: z.infer<typeof FormSchema>) {
         setDisabled(true);
 
-        toast(t('contactForm.successMessage'), {
-            description: `Nombre: ${data.name}, Proyecto: ${data.projectName}, Teléfono: ${data.phone}, Email: ${data.email}, Cómo nos conociste: ${data.howDidYouHear}, Acepto los términos y condiciones`,
-            duration: 3000,
-            action: {
-                label: 'Deshacer',
-                onClick: () => console.log(t('contactForm.successMessage')),
-            },
-        });
+        const lastSubmitTime = localStorage.getItem('nmlss-last-submit-time');
+        const now = new Date().getTime();
+        const fifteenMinutes = 15 * 60 * 1000;
+
+        if (lastSubmitTime && now - parseInt(lastSubmitTime) < fifteenMinutes) {
+            toast(t('contactForm.errorMessage'), {
+                description: t('contactForm.errorDescription'),
+                duration: 3000,
+            });
+            return;
+        }
+
+        localStorage.setItem('nmlss-last-submit-time', now.toString());
+
+        if (formRef.current) {
+            emailjs.sendForm(envs.emailJsServiceId, envs.emailJsTemplateId, formRef.current).then(
+                (result) => {
+                    console.log(result.text);
+                    toast(t('contactForm.successMessage'), {
+                        description: `Nombre: ${data.name}, Proyecto: ${data.projectName}, Teléfono: ${data.phone}, Email: ${data.email}, Mensaje: ${data.message}, Acepto los términos y condiciones`,
+                        duration: 3000,
+                        action: {
+                            label: 'Deshacer',
+                            onClick: () => console.log(t('contactForm.successMessage')),
+                        },
+                    });
+                },
+                (error) => {
+                    console.log(error);
+                    toast(t('contactForm.errorMessage'), {
+                        description: t('contactForm.errorDescription'),
+                        duration: 3000,
+                        action: {
+                            label: 'Deshacer',
+                            onClick: () => console.log(t('contactForm.errorMessage')),
+                        },
+                    });
+                },
+            );
+        }
 
         setTimeout(() => {
             setDisabled(false);
-        }, 5000);
+        }, 60000);
     }
 
     return (
         <Form {...form}>
             <form
+                id="contact-form"
+                ref={formRef}
                 onSubmit={form.handleSubmit(onSubmit)}
                 className="text-background w-full space-y-12"
             >
@@ -142,15 +192,15 @@ export function ContactForm() {
                 />
                 <FormField
                     control={form.control}
-                    name="howDidYouHear"
+                    name="message"
                     render={({ field }) => (
                         <FormItem>
                             <FormLabel className="text-accent text-2xl normal-case">
-                                {t('contactForm.howDidYouHearLabel')}
+                                {t('contactForm.messageLabel')}
                             </FormLabel>
                             <FormControl>
                                 <Textarea
-                                    placeholder={t('contactForm.howDidYouHearPlaceholder')}
+                                    placeholder={t('contactForm.messagePlaceholder')}
                                     className="border-b-background h-12 min-h-40 rounded-none border-transparent"
                                     {...field}
                                 />

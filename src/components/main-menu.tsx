@@ -1,7 +1,11 @@
 import { useEffect, useState } from 'react';
-import { useTranslation } from 'react-i18next';
+import { Service } from '@/interfaces';
 import { motion } from 'motion/react';
+import { useTranslation } from 'react-i18next';
 import { NavLink, useNavigate } from 'react-router';
+
+import { cn } from '@/lib/utils.ts';
+
 import {
     NavigationMenu,
     NavigationMenuContent,
@@ -10,8 +14,6 @@ import {
     NavigationMenuList,
     NavigationMenuTrigger,
 } from '@/components/ui/navigation-menu.tsx';
-import { cn } from '@/lib/utils.ts';
-import { Service } from '@/interfaces';
 
 export default function MainMenu() {
     const navigate = useNavigate();

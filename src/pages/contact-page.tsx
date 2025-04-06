@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+
 import { ContactForm } from '@/components/contact-form.tsx';
 
 export default function ContactPage() {

@@ -1,7 +1,9 @@
-import { NavLink } from 'react-router';
 import { ArrowUpRightIcon } from 'lucide-react';
 import { motion } from 'motion/react';
+import { NavLink } from 'react-router';
+
 import { cn } from '@/lib/utils.ts';
+
 import { buttonVariants } from '@/components/ui/button.tsx';
 
 interface ServiceCardProps {

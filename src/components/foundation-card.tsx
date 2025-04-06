@@ -1,5 +1,6 @@
-import Icons from '@/components/icons.tsx';
 import { cn } from '@/lib/utils.ts';
+
+import Icons from '@/components/icons.tsx';
 
 interface FoundationCardProps {
     className?: string;

@@ -321,15 +321,16 @@
         "emailLabel": "Email",
         "emailPlaceholder": "youremail@example.com",
         "emailValidation": "This doesn't look like a valid email. Check it and try again.",
-        "howDidYouHearLabel": "How did you hear about us?",
-        "howDidYouHearPlaceholder": "E.g. Instagram, Google, recommendation...",
-        "howDidYouHearValidation": "We'd love to know how you found us.",
+        "messageLabel": "How did you hear about us?",
+        "messagePlaceholder": "E.g. Instagram, Google, recommendation...",
+        "messageValidation": "We'd love to know how you found us.",
         "termsLabel": "I accept the privacy policy",
         "termsPlaceholder": "NMLSS will use your data only to respond to you and send you relevant info. We don't spam. You can learn more in our <1>privacy policy.</1>",
         "termsValidation": "We need your consent to help you with your project.",
         "submitLabel": "Send message",
         "successMessage": "Thank you for writing to us! We will contact you soon. 🚀",
-        "errorMessage": "Something went wrong while sending your message. Try again or write to us at hello@nmlss.com"
+        "errorMessage": "Something went wrong while sending your message. Try again or write to us at hello@nmlss.com",
+        "errorDescription": "If the problem persists, please contact us directly via our email."
     },
     "mainMenuComponent": {
         "home": "Home",

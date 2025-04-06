@@ -1,10 +1,12 @@
-import ProjectCard from '@/components/project-card.tsx';
-import { NavLink } from 'react-router';
-import { cn } from '@/lib/utils.ts';
-import { motion } from 'motion/react';
-import { buttonVariants } from '@/components/ui/button.tsx';
-import { useTranslation } from 'react-i18next';
 import { Project } from '@/interfaces';
+import { motion } from 'motion/react';
+import { useTranslation } from 'react-i18next';
+import { NavLink } from 'react-router';
+
+import { cn } from '@/lib/utils.ts';
+
+import { buttonVariants } from '@/components/ui/button.tsx';
+import ProjectCard from '@/components/project-card.tsx';
 
 export default function Projects() {
     const { t } = useTranslation();

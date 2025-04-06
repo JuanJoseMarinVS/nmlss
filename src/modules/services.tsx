@@ -1,6 +1,7 @@
-import { useTranslation } from 'react-i18next';
-import ServiceCard from '@/components/service-card.tsx';
 import { Service } from '@/interfaces';
+import { useTranslation } from 'react-i18next';
+
+import ServiceCard from '@/components/service-card.tsx';
 
 export default function Services() {
     const { t } = useTranslation();

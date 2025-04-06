@@ -1,6 +1,7 @@
+import { Service } from '@/interfaces';
 import { useTranslation } from 'react-i18next';
 import { useParams } from 'react-router';
-import { Service } from '@/interfaces';
+
 import NotFoundPage from '@/pages/not-found-page.tsx';
 import Contact from '@/modules/contact.tsx';
 

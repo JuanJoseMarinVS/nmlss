@@ -1,5 +1,6 @@
-import { NavLink } from 'react-router';
 import { motion } from 'motion/react';
+import { NavLink } from 'react-router';
+
 import { cn } from '@/lib/utils.ts';
 
 export default function Brand() {

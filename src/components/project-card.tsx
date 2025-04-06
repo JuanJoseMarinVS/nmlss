@@ -1,5 +1,5 @@
-import { NavLink } from 'react-router';
 import { ProjectsCardProps } from '@/interfaces';
+import { NavLink } from 'react-router';
 
 export default function ProjectCard({ image, background, title, services, to }: ProjectsCardProps) {
     return (

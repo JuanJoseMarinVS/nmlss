@@ -1,5 +1,6 @@
-import TeamCard from '@/components/team-card.tsx';
 import { useTranslation } from 'react-i18next';
+
+import TeamCard from '@/components/team-card.tsx';
 
 interface TeamMember {
     name: string;

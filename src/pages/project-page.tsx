@@ -1,9 +1,10 @@
+import { Project, Testimonial } from '@/interfaces';
 import { Trans, useTranslation } from 'react-i18next';
 import { useParams } from 'react-router';
-import { Project, Testimonial } from '@/interfaces';
+
 import NotFoundPage from '@/pages/not-found-page.tsx';
-import ProjectCard from '@/components/project-card.tsx';
 import Contact from '@/modules/contact.tsx';
+import ProjectCard from '@/components/project-card.tsx';
 
 export default function ProjectPage() {
     const { projectId } = useParams<{ projectId: string }>();

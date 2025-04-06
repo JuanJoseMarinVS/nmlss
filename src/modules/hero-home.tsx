@@ -1,8 +1,10 @@
-import { NavLink } from 'react-router';
 import { ArrowUpRightIcon } from 'lucide-react';
-import { useTranslation } from 'react-i18next';
 import { motion } from 'motion/react';
+import { useTranslation } from 'react-i18next';
+import { NavLink } from 'react-router';
+
 import { cn } from '@/lib/utils.ts';
+
 import { buttonVariants } from '@/components/ui/button.tsx';
 
 export default function HeroHome() {

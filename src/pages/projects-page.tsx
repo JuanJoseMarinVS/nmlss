@@ -1,7 +1,8 @@
-import ProjectCard from '@/components/project-card.tsx';
-import { useTranslation } from 'react-i18next';
 import { Project } from '@/interfaces';
+import { useTranslation } from 'react-i18next';
+
 import Contact from '@/modules/contact.tsx';
+import ProjectCard from '@/components/project-card.tsx';
 
 export default function ProjectsPage() {
     const { t } = useTranslation();

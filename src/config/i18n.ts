@@ -1,7 +1,8 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import es from '../assets/es.json';
+
 import en from '../assets/en.json';
+import es from '../assets/es.json';
 
 // the translations
 // (tip move them in a JSON file and import them,
@@ -28,6 +29,6 @@ i18n.use(initReactI18next) // passes i18n down to react-i18next
             escapeValue: false, // react already safes from xss
         },
     })
-    .then(() => console.log('Language changed'));
+    .then(() => console.log('Language loaded'));
 
 export default i18n;

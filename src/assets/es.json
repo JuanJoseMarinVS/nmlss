@@ -320,15 +320,16 @@
         "emailLabel": "Correo electrónico",
         "emailPlaceholder": "tucorreo@ejemplo.com",
         "emailValidation": "Esto no parece un correo válido. Revísalo y vuelve a intentarlo.",
-        "howDidYouHearLabel": "¿Dónde oíste de nosotros?",
-        "howDidYouHearPlaceholder": "Ej. Instagram, Google, recomendación...",
-        "howDidYouHearValidation": "Nos encantaría saber cómo llegaste hasta aquí.",
+        "messageLabel": "¿Dónde oíste de nosotros?",
+        "messagePlaceholder": "Ej. Instagram, Google, recomendación...",
+        "messageValidation": "Nos encantaría saber cómo llegaste hasta aquí.",
         "termsLabel": "Acepto la política de privacidad",
         "termsPlaceholder": "NMLSS usará tus datos solo para responderte y enviarte info relevante. No hacemos spam. Puedes saber más en nuestra <1>política de privacidad.</1>",
         "termsValidation": "Necesitamos tu consentimiento para poder ayudarte con tu proyecto.",
         "submitLabel": "Enviar mensaje",
         "successMessage": "¡Gracias por escribirnos! Pronto nos pondremos en contacto contigo. 🚀",
-        "errorMessage": "Algo no salió bien al enviar tu mensaje. Intenta de nuevo o escríbenos a hola@nmlss.com"
+        "errorMessage": "Algo no salió bien al enviar tu mensaje. Intenta de nuevo o escríbenos a hola@nmlss.com",
+        "errorDescription": "Si el problema persiste, por favor contáctanos directamente a través de nuestro correo electrónico."
     },
     "mainMenuComponent": {
         "home": "Inicio",

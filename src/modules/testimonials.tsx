@@ -1,17 +1,21 @@
 import { useRef } from 'react';
 import { ArrowLeftIcon, ArrowRightIcon } from 'lucide-react';
-import { useTranslation } from 'react-i18next';
 import { motion } from 'motion/react';
+import { useTranslation } from 'react-i18next';
 import { Swiper, SwiperSlide } from 'swiper/react';
+
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-expect-error
 import 'swiper/css';
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-expect-error
 import 'swiper/css/pagination';
-import { buttonVariants } from '@/components/ui/button.tsx';
-import { cn } from '@/lib/utils.ts';
+
 import { Testimonial } from '@/interfaces';
+
+import { cn } from '@/lib/utils.ts';
+
+import { buttonVariants } from '@/components/ui/button.tsx';
 
 export default function Testimonials() {
     const { t } = useTranslation();

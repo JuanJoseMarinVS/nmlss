@@ -1,9 +1,10 @@
-import { NavLink } from 'react-router';
-import { useTranslation } from 'react-i18next';
+import { Service } from '@/interfaces';
 import { SendIcon } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+import { NavLink } from 'react-router';
+
 import { LanguageToggle } from '@/components/language-toggle.tsx';
 import { ModeToggle } from '@/components/mode-toggle.tsx';
-import { Service } from '@/interfaces';
 
 export default function Footer() {
     const { t } = useTranslation();

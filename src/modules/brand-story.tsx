@@ -1,7 +1,9 @@
 import { useTranslation } from 'react-i18next';
+
+import { cn } from '@/lib/utils.ts';
+
 import FoundationCard from '@/components/foundation-card.tsx';
 import Icons from '@/components/icons.tsx';
-import { cn } from '@/lib/utils.ts';
 
 interface Foundation {
     icon: keyof typeof Icons;
